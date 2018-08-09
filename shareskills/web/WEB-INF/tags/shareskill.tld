@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="GBK"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>mytaglib</short-name>
+    <!-- 定义该标签库的URI -->
+    <uri>http://www.shaareskill.com/mytaglib</uri>
+    <!-- 定义第一个标签 -->
+    <tag>
+        <description>show drop selector</description>
+        <name> seletor</name>
+        <tag-class>com.shareskill.tags.DropSelector</tag-class>
+        <body-content>empty</body-content>
+
+    </tag>
+    <!--显示用户信息列表!-->
+    <tag>
+        <name>showAllUser</name>
+        <tag-class>com.shareskill.tags.ShowAllUser</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>用户集合</description>
+            <name>userList</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.util.List</type>
+        </attribute>
+    </tag>
+    <!--显示主页分类列表-->
+    <tag>
+        <name>showAllCateList</name>
+        <tag-class>com.shareskill.tags.ShowAllCategorys</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>分类列表</description>
+            <name>cateList</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.util.List</type>
+        </attribute>
+    </tag>
+    <tag>
+        <name>showAllBlogList</name>
+        <tag-class>com.shareskill.tags.ShowAllBlogs</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>博文列表</description>
+            <name>blogList</name>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.util.List</type>
+        </attribute>
+        <attribute>
+            <description>jsp当前上下文路径</description>
+            <name>pathBase</name>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.shareskill.tags.ShowAllBlogs</type>
+        </attribute>
+    </tag>
+    <!-- 带遮罩的网页对话框标签 -->
+    <tag>
+        <description>带遮罩的网页对话框标签</description>
+        <name>msgdialog</name>
+        <tag-class>com.shareskill.tags.MsgDialogTag</tag-class>
+        <!-- 标签体可以是静态HTML元素，表达式语言，但不允许出现JSP脚本 -->
+        <body-content>scriptless</body-content>
+        <attribute>
+            <description>对话框标题文字,默认为"温馨提示"</description>
+            <name>title</name>
+            <required>false</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>遮罩的高度,默认为屏幕的高度,即100%</description>
+            <name>height</name>
+            <required>false</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>对话框的顶部距离,默认为100px</description>
+            <name>top</name>
+            <required>false</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>对话框的宽度,默认为500px</description>
+            <name>boxwidth</name>
+            <required>false</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>基本URL</description>
+            <name>basepath</name>
+            <required>true</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>临时ID后缀,避免ID冲突,默认为系统时间的毫秒数</description>
+            <name>tmpid</name>
+            <required>false</required>
+            <!-- 可以使用JSP表达式 -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <!-- 新闻搜索分页控制标签 -->
+    <tag>
+        <description>新闻搜索分页控制标签</description>
+        <name>searchDatapage</name>
+        <tag-class>com.shareskill.tags.SearchDataByCateTag</tag-class>
+        <!-- 标签体为空 -->
+        <body-content>empty</body-content>
+        <attribute>
+            <description>搜索关键字</description>
+            <name>keyword</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>分类id</description>
+            <name>cateId</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>每页新闻条数,,默认值24</description>
+            <name>pageSize</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>页号,默认为1(第一页)</description>
+            <name>pageNo</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>分页调用的URL,此项为必填项</description>
+            <name>url</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
+

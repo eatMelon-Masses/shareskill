@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/headerTop.css" />
+		<link rel="stylesheet" type="text/css" href="/css/noteshare.css" />
+		<script type="text/javascript" src="/js/noteshare.js" ></script>
+		<meta charset="UTF-8">
+		<!--<meta http-equiv="refresh" content="5"/>-->
+		<title></title>
+	</head>
+	<body>
+		<header class="top">
+			<div class="logo"><a href="index.jsp"><img src="/img/logo (2).png" /></a></div>
+			<nav class="topmain">
+				<a href="boke.jsp">博客</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="download.jsp">下载</a>&nbsp;&nbsp;
+				<a href="noteshare.html">便签分享</a>&nbsp;&nbsp;
+			    <a href="person.jsp">个人中心</a>&nbsp;&nbsp;
+			</nav>
+			<div class="topsearch">
+				<input type="search" class="search" placeholder="搜索一下"/>
+				<input type="image" src="/img/searchimg.png" class="searchbtn" />
+			</div>
+			<div class="boke"><img  class="bokeimg" src="/img/wboke.png" /></div>
+			<nav class="toplogin">
+				<a class="wboke" href="writeBoke.html">写博客</a>&nbsp;
+				<a class="login" href="/writeSignForm">登录</a>&nbsp;
+				<a class="enroll" href="enroll.jsp">注册</a>&nbsp;
+			</nav>
+		</header>
+		<section class="noteLeft">
+			<div class="speak">
+				<textarea id="shuoshuo" type="text" placeholder="说点什么吧！"></textarea>
+				<div class="release">
+					<input type="image" src="/img/face.png"/>
+					<input type="image" src="/img/picture.png"/>
+				</div>
+				<input id="releaseBtn" type="button" value="发布" />
+			</div>
+			<div id="dynamic">
+				<input type="button" value="热门"/>
+				<input type="button" value="全部"/>
+				<input type="button" value="博客"/>
+				<input type="button" value="图片"/>
+			</div>
+			<div id="dynamicDiv">
+				<div>热门</div>
+				<div>
+					<div>
+						
+					</div>
+				</div>
+				<div>博客</div>
+				<div>图片</div>
+			</div>
+		</section>
+		<section class="noteRight">
+			<div id="clock" class="date">
+			    <div class="time" >
+			        <img class="num" src="/img/clock/0.png" />
+			        <img class="num" src="/img/clock/0.png" />
+			        <img src="/img/clock/sign.png" />
+			        <img class="num" src="/img/clock/0.png" />
+			        <img class="num" src="/img/clock/0.png" />
+			        <img src="/img/clock/sign.png" />
+			        <img class="num" src="/img/clock/0.png" />
+			        <img class="num" src="/img/clock/0.png" />
+			    </div> 
+			</div>
+		</section>
+		<footer>
+			<span><a href="#">知识产权</a> | <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">有害信息举报 | </a></span>
+			<span>ORS营业执照:000000000000 | 网络文化经营许可证:XXXX-XXX号 | 增值电信业务经营许可证:ORS-XXXXXXXX | 安全责任书 </span>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;}
+body{background-color: whitesmoke;}
+select,input,textarea{outline: none;/*去掉点击边框*/}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	border-bottom: 2px solid #7AC9CB;
+}
+a{text-decoration: none;color: none;}
+a:link {color:black;} /*未访问的链接 */
+header a:hover {color:#76C7C8} /*鼠标划过链接 */
+header a:active {color:#FF6666;} /* 已选中的链接 */
+
+.logo,.topmain,.topsearch,.boke,.toplogin{
+	float: left;
+}
+.homeleft,.homeright{float: left;}
+.logo{padding-left: 75px;}
+.topmain{
+	font-family: "黑体";
+	margin-top: 15px;
+	height: 40px;
+    padding-left: 75px;
+}
+.topsearch{
+	margin-left:200px;
+	margin-top: 10px;
+	border: 2px solid #D3D2D3;
+	border-radius: 5px;
+}
+.search{
+	height: 30px;
+	background-color: #ECE9D8;
+}
+.searchbtn{
+	width: 30px;
+	height: 30px;
+}
+.search,.searchbtn{float: left;}
+.boke{margin-top: 8px;margin-left: 30px;}
+.toplogin{
+	height: 20px;
+	font-family: "黑体";
+	font-size: 13px;
+	margin-top: 20px;
+}
+.wboke,.login,.enroll{margin-top: 15px;}
+/*页脚*/
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	font-family: "宋体";
+}

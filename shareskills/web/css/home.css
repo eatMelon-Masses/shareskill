@@ -1,0 +1,103 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+a:link {color:black;} /*未访问的链接 */
+header a:hover {color:#76C7C8} /*鼠标划过链接 */
+header a:active {color:#FF6666;} /* 已选中的链接 */
+
+/*页头导航*/
+
+/*首页左侧*/
+section{
+	width:1366px;
+	height: 1500px;
+	padding-top: 70px;
+	/*background: whitesmoke;*/
+}
+.home{
+	width: 1199px;
+    height: 1500px;
+    /*margin: 0 auto;*/
+   margin-left: 150px;
+}
+
+.homeleft{
+	text-decoration: none;
+	list-style: none;
+    float: left;
+	width: 120px;
+	line-height: 40px;
+	background: white;
+}
+.homeleft li{
+	font-family: "宋体";
+	margin-left: 10px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100px;
+    font-size: 18px;
+    text-align: center;
+   }
+.homeleft li:hover{background-color: #7AC9CB;}
+.homeleft li:active{color: #FF6666;background-color: #7AC9CB;border-style: none;}
+
+/*首页右上轮播图*/
+.homeright{
+	float: right;
+	margin-left: 80px;
+}
+
+#picBox {
+	height: 300px;
+	width: 886px;
+	overflow: hidden;
+	position:relative;
+	border: 1px solid gray;
+	box-shadow: 0 0 8px black;
+}
+#picBox ul{
+	height: 300px;
+	width: 4430px;
+	float: left;
+	position: absolute;
+	display: block;
+}
+#picBox li{float: left;}
+#picBox ol{bottom: 10px; width: 100%;position: absolute;padding-left:380px;}
+#picBox ol li{
+	width:6px;height:4px;overflow: hidden;background-color: white;
+	display: inline-block;padding-left: 10px;margin-left: 5px;border-radius:4px;}
+#picBox .active{background-color:#6BC9D0;}
+/*首页右下*/
+.rightbuttom{
+    margin-top: 20px;
+	border: 1px dashed #7AC9CB;
+	background: white;
+	}
+.rightbuttom dl{
+	border-bottom: 1px dashed #7AC9CB;
+	padding: 5px 10px;clear: both;
+}
+.rightbuttom dl:active {border-bottom: 1px solid #7AC9CB;box-shadow: 0 0 8px black;}
+
+.rightbuttom dl dt{
+	width: 100%;
+	margin: auto 10px;
+	font-size: 23px;
+}
+.rightbuttom dl dd{
+	width: 100%;height: 40px;
+	margin-top: 20px;
+	padding-top: 10px;
+	font-size: 18px;
+	font-family: "楷体";
+}
+.rightbuttom dl dd div,.rightbuttom dl dd input{float: left;margin-right: 70px;width: 200px;}
+#criticize{width: 20px;}
+#dataTime{height: 20px;width: 100px;}
+#fenlei{color: lightskyblue;}
+.rightbuttom dl dd p{margin-left: 200px;float: left;}
+
+

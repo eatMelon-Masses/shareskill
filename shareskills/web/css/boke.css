@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+body{background: whitesmoke;}
+
+article{
+	width: 850px;
+	padding-top: 56px;
+	margin: 0px auto;
+	background: white;
+	border-radius: 10px;
+	border-bottom-width: 700px;
+}
+.fenleiimg{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+	width: 700px;
+	height: 35px;
+	border-bottom: 1px solid black;
+}
+.bokedivMenu{
+	width: 700px;
+	height: 90px;
+	margin: 5px auto;
+	border-bottom: 1px solid black;
+}
+.bokedivMenu a:hover{background: #7AC9CB;}
+.bokedivMenu a{
+	float: left;
+	width: 50px;
+	text-align: center;
+	margin:10px 0;
+	margin-right: 64px;
+	border: 1px solid #7AC9CB;
+	border-radius: 10px;
+}
+.click{background: #66CCCC;}
+/*各个部分内容上面*/
+.bokedivIn{width: 700px;margin: 10px auto;}
+.bokeDivimg{
+	width: 700px;
+	height: 35px;
+	margin: 20px auto;
+}
+.bokeDivimg img{margin-right: 535px;}
+.bokeDivimg input{background: white;font-size: 15px;}
+/*各个部分内容*/
+.bokeDivInner{margin: 5px auto;width:850px;}
+.bokeDivInner h3{width: 700;height: 35px;}
+.bokeDivInner img,.bokeDivInner p{float: left;margin-bottom: 20px;}
+.bokeDivInner p{margin-left: 20px;}
+.bokeDivInner div{width: 700px;overflow: hidden;border-bottom: 1px dashed #66CCCC;margin-left: 75px;}
+.bokeDivInner div div{margin-left: 0px;}
+#txt{
+	/*clear: both;*/border: none;
+	width: 700px;height:75px;line-height: 25px;
+	margin: 20px auto;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3; //文本行数
+	
+}
+.bokeDivInner div div img{margin-right: 50px;}

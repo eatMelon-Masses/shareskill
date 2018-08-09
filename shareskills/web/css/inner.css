@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+body{background: url(../img/bg1.jpg);}
+article{
+	width: 80%;margin: 0px auto;
+}
+article h2{color: white;padding-top: 70px;margin-left: 45%;}
+#inform{width: 100%;margin-left: 30%;}
+#inform p{float: left;color: white;margin: 20px auto;margin-right: 7%;width: 15%;}
+#txt{
+	clear: both;line-height: 25px;text-indent: 2em;/*段落前面空两个格*/
+	width: 100%;border: dashed 10px #8A4E29;background-color: white;
+}
+#txt p{margin: 10px 10px;}
+/*评论*/
+section{width: 80%;background-color: white;border: 1px solid white;border-radius: 10px;margin: 20px auto;}
+.visit{width: 100%;height: 20px;margin: 10px 5px;border-bottom: 1px dashed #66CCCC;}
+.visit input{float: left;margin-right: 100px;}
+#visitInner{width: 30%;height: 20px;background-color:whitesmoke;border-radius: 5px;margin-left: 1%;}
+#visitBtn{width: 5%;height: 20px;background-color: #66CCCC;border-radius: 5px;}
+/*显示所有评论*/
+#visitIn{clear: both;margin: 10px 10px;}
+#visitIn div{width: 100%;height: 30px;}
+#visitIn div p{float: left;margin-right: 1%;}
+.delete{width: 5%;height: 20px;background-color: #66CCCC;border-radius: 5px;margin-left: 19%;}

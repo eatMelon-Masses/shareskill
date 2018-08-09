@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+article{
+	width: 100%;
+	height: 1000px;
+	padding-top: 50px;
+	background: whitesmoke;
+}
+article header{
+	position: relative;
+	width: 900px;
+	height: 35px;
+	margin-left: 233px;
+	margin-top: 10px;
+	background: white;
+	padding-top: 10px;
+	border: 0;
+}
+article header a:hover {color: #66CCCC;}
+article header a{
+	margin-left: 170px;
+	font-family: "宋体";
+	font-size: 15px;
+}

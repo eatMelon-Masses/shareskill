@@ -1,0 +1,85 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+ul,ol,li{list-style: none;}
+.logo{padding-left: 75px;}
+header{border-bottom: 2px solid #7AC9CB;}
+header p,header a{float: left;}
+p{
+	margin-left: 300px;
+	font-size: 35px;font-weight: 500;
+	font-style: oblique;color: #7AC9CB;
+	text-shadow: 0.1em 0.1em 0.1em #999999;
+}
+/*管理菜单*/
+article{
+	width: 1366px;
+	margin-top: 5px;
+	padding-top: 55px;
+}
+article ul li:hover ul{display: block;box-shadow: 0 0 8px saddlebrown;}
+article li:active{box-shadow: 0 0 8px black;}
+article ul{
+	height: 35px;
+	margin-left:103px;
+}
+ul li{
+	float: left;
+    margin-left: 80px;
+    text-align: center;
+}
+article ul li input{
+	position: relative;
+	width: 190px;
+	height: 30px;
+	font-family: "楷体";
+    font-size: 18px;
+    background-color: #7AC9CB;
+}
+
+article ul li ul li{
+	float: none;
+	margin-left: 0px;
+	border-bottom: 1px solid black;
+}
+article ul li ul{
+	position: absolute;
+	margin-left: 0px;
+	width: 190px;
+	display: none;
+}
+
+/*内容*/
+section{clear: both;margin: 10px auto;}
+table{
+	width: 1002px;
+	margin: 10px auto;
+	empty-cells: show;/*显示空单元格*/
+	border-collapse: collapse;/*合并单元格边框*/
+	border: 1px solid #7AC9CB;
+	border-radius: 5px;
+	font-size: 15px;
+}
+th{
+	background-repeat: repeat-x;/*定义水平平铺*/
+	height: 30px;
+	background-color: #CCC;
+}
+td{height: 20px;text-align: center;}
+th,td{border: 1px solid #7AC9CB;padding: 0 2em 0;/*单元格左右两侧补白，一个字距*/}
+
+/*分类博文管理*/
+.classify{
+	width: 100px;
+	height: 600px;
+}
+.classify li{
+	font-family: "楷体";
+	margin-top: 30px;
+	width: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+li:hover{background-color: #7AC9CB;}
+li:active{color: #FF6666;background-color: #7AC9CB;border-style: none;}
+a:active{color: #FF6666;}

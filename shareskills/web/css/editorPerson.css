@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+body{background: url(../img/bg.jpg);}
+
+section{padding-top: 62px;}
+.inner{
+	background: white;
+	width: 62%;margin: 10px auto;
+	border: dashed 10px #5395E3;
+}
+.inner p{
+	margin: 10px 5%;border-bottom: 1px dashed #66CCCC;color: #66CCCC;
+}
+.inner form{
+	margin: 10px 9%;margin-bottom: 40px;
+	line-height: 40px;
+}
+.inner form input{border-bottom: 1px solid #66CCCC;width: 39%}
+.inner form textarea{background-color: gainsboro;width: 39%;height: 100px;}
+#submit{width: 12%;height: 25px;background-color: #66CCCC;border-radius: 10px;margin: 10px auto;margin-left: 45%;}

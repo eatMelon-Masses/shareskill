@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+/*body{background-color: whitesmoke;}*/
+.noteLeft,.noteRight{float: left;}
+#dynamic,#dynamicDiv{clear: both;}
+/*左边*/
+.noteLeft{
+	width: 700px;
+	font-family: "华文仿宋";
+	margin-left: 234px;
+	padding-top: 55px;
+}
+/*发布动态*/
+.speak,#dynamic{
+	width: 650px;
+	background: white;
+	border-radius: 5px;
+}
+.speak{height: 180px;margin-top: 10px;margin-bottom: 10px;}
+#shuoshuo,.release{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#shuoshuo{
+	width: 600px;
+	height: 100px;
+	padding: 5px;
+	background: whitesmoke;
+	border-radius: 10px;
+}
+.release input{margin-right: 20px;}
+.release,#releaseBtn{float: left;}
+
+#releaseBtn{
+	width: 70px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 410px;
+	background: #66CCCC;
+	border-radius: 10px;
+}
+#dynamic{height: 50px;}
+#dynamic input{
+	width: 40px;
+	height: 50px;
+	background: white;
+	margin-left: 25px;
+	font-size: 18px;
+	font-family: "华文仿宋";
+}
+
+#dynamic input:hover{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
+.btnclass{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
+
+#dynamicDiv{margin-top: 10px;width: 650px;}
+#dynamicDiv div{clear: both;margin-bottom: 20px;}
+#dynamicDiv div div{background: white;margin-bottom: 10px;border-radius: 10px;}
+.userimg{height: 74px;}
+.userimg,.userspeak,#visit{margin-top: 10px;margin-left: 30px;}
+.userimg input,.userimg p{float: left;margin-top:5px ;}
+.userimg h2,.userimg p{margin: 5px 20px;vertical-align: bottom;}
+#visit input{margin-right: 40px;}
+/*右边*/
+.noteRight{
+	padding-top: 60px;
+	width: 13%;
+	height: 500px;
+}
+   /*时钟*/
+.date{
+	width: 42%;height: 100px;
+	border: dashed 10px whitesmoke;
+	background: white;
+	margin:0px auto;
+	padding: 20px 40px 20px;
+}
+.date p{float: left;color: #66CCCC;font-size: 15px;}
+#clockYear,#clockHours,#clockDay{clear: both;width: 190px;height:20px;margin: 10px auto;}
+.noteRightbot{
+	width: 190px;
+	height: 306px;
+	margin: 20px 0;
+	position: relative;
+}
+.noteRightbot img{position: absolute;}
+.noteRightbot_in{position: absolute;margin:70px 40px;}
+.noteRightbot_in img,.noteRightbot_in a{float: left;position: relative;marker: 20px;height: 20px;margin-top: 10px;}
+.noteRightbot_in a{width: 80px;font-size: 15px;}
+

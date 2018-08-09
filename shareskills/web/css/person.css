@@ -1,0 +1,58 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+body{background: whitesmoke;}
+/*个人信息框*/
+article{
+	width: 70%;padding-top:55px;margin: 0px auto;
+}
+.bgimg{width: 100%;height: 120px;}
+.bgimg img{width: 70%;height: 120px;position: absolute;}
+.bgimg input{
+	margin-left: 800px;margin-top: 80px;width: 100px;height: 25px;background: rgba(100,100,100,0.2);
+	border-radius: 10px;position: absolute;color: #66CCCC;
+}
+.personsourse{width: 100%;height: 100px;background: white;margin-top: 0px;}
+.personsourse div,.personsourse input{float: left;}
+.personsourse img{margin-top: -20px;margin-left: 20px;width: 60px;height: 60px;}
+.personsourse div{height: 90px;}
+#accountS{width: 10%;}
+#accountX{width: 50%;}
+#submit{border:1px solid #66CCCC;border-radius: 5px;width: 7%;clear: both;
+position: absolute;background-color: white;color: #66CCCC;margin-top: 10px;margin-left: 0;}
+.personsourse div{margin-left: 30px;margin-top: 20px;width: 500px;height: 80px;}
+.personsourse div p{margin-top: 10px;width: 100%; height: 50px;overflow: hidden;float: left;}
+.personsourse a{
+	display: block;float: left;
+	width: 80px;height: 15px;background: rgba(100,100,100,0.2);font-size: 13px;
+	border-radius: 10px;margin-left: 175px;padding: 5px 10px;margin-top: 50px;
+}
+section,.personvisit{float: left;}
+section{margin-left: 15%;margin-top: 10px;width: 50%;}
+#personMenu{width: 100%;background: white;height: 40px;}
+#personMenu input{height: 40px;margin-left: 80px;background: white;}
+#personMenu input:hover{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
+section section{margin-left:0;margin-top: 10px;width: 100%;background: white;}
+.active{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
+
+/*各个分页内容*/
+section section p{width: 100%;height: 30px;border-bottom: 1px solid black;color: gray;margin: 10px 5px;}
+.myDynamic{margin: 10px 5px;border-bottom: 1px dashed #66CCCC;height: 80px;}
+#txt{
+	width: 100%;height: 47px;
+	font-size: 15px;line-height: 25px;
+	text-indent: 2em;/*段落前面空两个格*/
+	display: -webkit-box;overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; //文本行数
+}
+.myDynamic p,.myVisit p{width:20%;height: 25px;float: left;color: #66CCCC;border: none;margin-right: 15%;font-size: 12px;}
+.myVisit{margin: 10px 5px;border-bottom: 1px dashed #66CCCC;height: 90px;}
+.delete{width: 10%;height: 20px;background-color: #66CCCC;border-radius: 10px;margin-left: 15%;margin-top: 5px;}
+/*左侧的小便签*/
+.personvisit{margin-left:1%;margin-top: 10px;width: 19%;height: 500px;position: relative;}
+.personvisit img{position: absolute;}
+.personvisitIn{position: absolute;margin-top: 40px;margin-left: 50px;}
+.personvisitIn p{float: left;margin-right: 50px;margin-top: 10px;}

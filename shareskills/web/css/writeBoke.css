@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;border: none;}
+a{text-decoration: none;color: none;}
+input{border: none;}
+a{color: black;}
+ul,ol,li{list-style: none;}
+body{background: url(../img/wb.jpg);}
+section{
+	width: 750px;
+	margin: 0 258px;
+	padding: 70px 50px;
+	line-height: 80px;
+	font-size: 18px;
+	font-family: "华文仿宋";
+	background: white;
+}
+section h2 input{
+	width: 500px;
+	height: 30px;
+	background: whitesmoke;
+	border-radius: 10px;
+}
+section h4 select{background: whitesmoke;width: 70px;}
+section textarea{width: 750px;height: 500px;background: whitesmoke;}
+#sendboke{
+	clear: both;width: 70px;height: 25px;
+	text-align: center;background: #66CCCC;border-radius: 10px;margin-left: 340px;
+}
