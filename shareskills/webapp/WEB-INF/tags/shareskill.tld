@@ -9,7 +9,8 @@
     <uri>http://www.shaareskill.com/mytaglib</uri>
     <!-- 定义第一个标签 -->
     <tag>
-        <description>show drop selector</description>
+      <!--  <description>show drop selector</description>-->
+
         <name> seletor</name>
         <tag-class>com.shareskill.tags.DropSelector</tag-class>
         <body-content>empty</body-content>
@@ -60,7 +61,7 @@
     </tag>
     <!-- 带遮罩的网页对话框标签 -->
     <tag>
-        <description>带遮罩的网页对话框标签</description>
+       <!-- <description>带遮罩的网页对话框标签</description>-->
         <name>msgdialog</name>
         <tag-class>com.shareskill.tags.MsgDialogTag</tag-class>
         <!-- 标签体可以是静态HTML元素，表达式语言，但不允许出现JSP脚本 -->
