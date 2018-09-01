@@ -7,293 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a817068e-cb6a-4016-b2fb-fbdd14b7a3bd" name="Default" comment="1.修改了项目结构&#10;2.应该可以部署成功,">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/test_Web_exploded.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/message.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/webapp/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/webapp/WEB-INF/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/message.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-form.tld" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-form.tld" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring.tld" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring.tld" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/c.tld" afterPath="$PROJECT_DIR$/webapp/WEB-INF/tags/c.tld" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/shareskill.tld" afterPath="$PROJECT_DIR$/webapp/WEB-INF/tags/shareskill.tld" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/adminpage.jsp" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/adminpage.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/admin/AdminEditForm.jsp" afterPath="$PROJECT_DIR$/webapp/admin/AdminEditForm.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/admin/addBlog.xhtml" afterPath="$PROJECT_DIR$/webapp/admin/addBlog.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/admin/index.jsp" afterPath="$PROJECT_DIR$/webapp/admin/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/admin/manage.jsp" afterPath="$PROJECT_DIR$/webapp/admin/manage.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/admin/manage_user.jsp" afterPath="$PROJECT_DIR$/webapp/admin/manage_user.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/.htaccess" afterPath="$PROJECT_DIR$/webapp/ckeditor/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/CHANGES.html" afterPath="$PROJECT_DIR$/webapp/ckeditor/CHANGES.html" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/INSTALL.html" afterPath="$PROJECT_DIR$/webapp/ckeditor/INSTALL.html" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/LICENSE.html" afterPath="$PROJECT_DIR$/webapp/ckeditor/LICENSE.html" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/adapters/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor.pack" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor.pack" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor.php" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor.php" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor_basic.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor_basic.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor_basic_source.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor_basic_source.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor_php4.php" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor_php4.php" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor_php5.php" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor_php5.php" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor_source.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/ckeditor_source.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/config.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/config.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/contents.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/contents.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/images/spacer.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/images/spacer.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/lang/_languages.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/lang/_languages.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/lang/en.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/lang/zh-cn.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/lang/zh.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/lang/en.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/a11yhelp/lang/en.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/about/dialogs/about.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/div/dialogs/div.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/div/dialogs/div.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/find/dialogs/find.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/find/dialogs/find.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/flash/dialogs/flash.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/flash/images/placeholder.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/flash/images/placeholder.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/button.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/button.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/form.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/form.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/radio.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/select.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/select.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/iframedialog/plugin.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/iframedialog/plugin.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/image/dialogs/image.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/link/dialogs/link.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/images/anchor.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/link/images/anchor.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/pastetext/dialogs/pastetext.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/pastetext/dialogs/pastetext.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_address.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_address.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_blockquote.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_div.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_div.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h1.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h1.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h2.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h2.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h3.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h3.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h4.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h4.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h5.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h5.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_h6.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_h6.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_p.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_p.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/showblocks/images/block_pre.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/showblocks/images/block_pre.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/angel_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/angry_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/broken_heart.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/confused_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/cry_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/devil_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/envelope.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/envelope.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/heart.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/heart.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/kiss.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/kiss.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/lightbulb.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/omg_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/regular_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/sad_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/shades_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/teeth_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/thumbs_down.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/thumbs_up.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/tounge_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/tounge_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/smiley/images/wink_smile.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/stylescombo/styles/default.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/stylescombo/styles/default.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/table/dialogs/table.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/templates/dialogs/templates.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/templates/dialogs/templates.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/templates/templates/default.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/templates/templates/default.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/templates/templates/images/template1.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/templates/templates/images/template1.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/templates/templates/images/template2.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/templates/templates/images/template2.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/templates/templates/images/template3.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/templates/templates/images/template3.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/dialogs/uicolor.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/dialogs/uicolor.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/lang/en.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/lang/en.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/plugin.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/plugin.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/uicolor.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/uicolor.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/assets/yui.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/assets/yui.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/uicolor/yui/yui.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/uicolor/yui/yui.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/dialog.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/dialog.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/editor.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/editor.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/icons.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/icons.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/dialog_sides.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/dialog_sides.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/dialog_sides.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/dialog_sides.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/dialog_sides_rtl.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/dialog_sides_rtl.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/mini.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/mini.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/noimage.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/noimage.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/sprites.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/sprites.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/sprites_ie6.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/sprites_ie6.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/images/toolbar_start.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/images/toolbar_start.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/skin.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/skin.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/kama/templates.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/kama/templates.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/dialog.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/dialog.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/editor.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/editor.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/icons.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/icons.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/dialog_sides.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/dialog_sides.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/dialog_sides.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/dialog_sides.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/dialog_sides_rtl.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/dialog_sides_rtl.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/mini.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/mini.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/noimage.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/noimage.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/sprites.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/sprites.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/images/sprites_ie6.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/images/sprites_ie6.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/skin.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/skin.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/office2003/templates.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/office2003/templates.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/dialog.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/dialog.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/editor.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/editor.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/icons.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/icons.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/dialog_sides.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/dialog_sides.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/dialog_sides.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/dialog_sides.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/dialog_sides_rtl.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/dialog_sides_rtl.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/mini.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/mini.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/noimage.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/noimage.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/sprites.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/sprites.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/sprites_ie6.png" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/sprites_ie6.png" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/images/toolbar_start.gif" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/images/toolbar_start.gif" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/skin.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/skin.js" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/skins/v2/templates.css" afterPath="$PROJECT_DIR$/webapp/ckeditor/skins/v2/templates.css" />
-      <change beforePath="$PROJECT_DIR$/web/ckeditor/themes/default/theme.js" afterPath="$PROJECT_DIR$/webapp/ckeditor/themes/default/theme.js" />
-      <change beforePath="$PROJECT_DIR$/web/common/user_web_head.jsp" afterPath="$PROJECT_DIR$/webapp/common/user_web_head.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/common/web_head.jsp" afterPath="$PROJECT_DIR$/webapp/common/web_head.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/css/boke.css" afterPath="$PROJECT_DIR$/webapp/css/boke.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/creatresource.css" afterPath="$PROJECT_DIR$/webapp/css/creatresource.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/download.css" afterPath="$PROJECT_DIR$/webapp/css/download.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/downloadInner.css" afterPath="$PROJECT_DIR$/webapp/css/downloadInner.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/editorPerson.css" afterPath="$PROJECT_DIR$/webapp/css/editorPerson.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/enroll.css" afterPath="$PROJECT_DIR$/webapp/css/enroll.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/error.css" afterPath="$PROJECT_DIR$/webapp/css/error.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/headerTop.css" afterPath="$PROJECT_DIR$/webapp/css/headerTop.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/home.css" afterPath="$PROJECT_DIR$/webapp/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/inner.css" afterPath="$PROJECT_DIR$/webapp/css/inner.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/login.css" afterPath="$PROJECT_DIR$/webapp/css/login.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/manage.css" afterPath="$PROJECT_DIR$/webapp/css/manage.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/noteshare.css" afterPath="$PROJECT_DIR$/webapp/css/noteshare.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/noteshareChild.css" afterPath="$PROJECT_DIR$/webapp/css/noteshareChild.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/person.css" afterPath="$PROJECT_DIR$/webapp/css/person.css" />
-      <change beforePath="$PROJECT_DIR$/web/css/writeBoke.css" afterPath="$PROJECT_DIR$/webapp/css/writeBoke.css" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg (2).jpg" afterPath="$PROJECT_DIR$/webapp/img/bg (2).jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg(1).png" afterPath="$PROJECT_DIR$/webapp/img/bg(1).png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg(7).jpg" afterPath="$PROJECT_DIR$/webapp/img/bg(7).jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg.jpg" afterPath="$PROJECT_DIR$/webapp/img/bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg1.jpg" afterPath="$PROJECT_DIR$/webapp/img/bg1.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/bg3.jpg" afterPath="$PROJECT_DIR$/webapp/img/bg3.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/cartoon.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/cartoon.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/entertainment.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/entertainment.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/fashion.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/fashion.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/film.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/film.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/finance.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/finance.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/focus.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/focus.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/food.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/food.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/infomation.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/infomation.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/life.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/life.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/bokeDiv/sports.png" afterPath="$PROJECT_DIR$/webapp/img/bokeDiv/sports.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/enroll.jpg" afterPath="$PROJECT_DIR$/webapp/img/enroll.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/enroll1.jpg" afterPath="$PROJECT_DIR$/webapp/img/enroll1.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/error.png" afterPath="$PROJECT_DIR$/webapp/img/error.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/error1.png" afterPath="$PROJECT_DIR$/webapp/img/error1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/face.png" afterPath="$PROJECT_DIR$/webapp/img/face.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/hand1.png" afterPath="$PROJECT_DIR$/webapp/img/hand1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/lb1.png" afterPath="$PROJECT_DIR$/webapp/img/lb1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/lb2.png" afterPath="$PROJECT_DIR$/webapp/img/lb2.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/lb3.jpg" afterPath="$PROJECT_DIR$/webapp/img/lb3.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/lb4.png" afterPath="$PROJECT_DIR$/webapp/img/lb4.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/login.png" afterPath="$PROJECT_DIR$/webapp/img/login.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/login1.jpg" afterPath="$PROJECT_DIR$/webapp/img/login1.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/login1.png" afterPath="$PROJECT_DIR$/webapp/img/login1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/login2.jpg" afterPath="$PROJECT_DIR$/webapp/img/login2.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/login2.png" afterPath="$PROJECT_DIR$/webapp/img/login2.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/logo (2).png" afterPath="$PROJECT_DIR$/webapp/img/logo (2).png" />
-      <change beforePath="$PROJECT_DIR$/web/img/logo.png" afterPath="$PROJECT_DIR$/webapp/img/logo.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/news.png" afterPath="$PROJECT_DIR$/webapp/img/news.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/pic.png" afterPath="$PROJECT_DIR$/webapp/img/pic.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/pic1.png" afterPath="$PROJECT_DIR$/webapp/img/pic1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/searchimg.png" afterPath="$PROJECT_DIR$/webapp/img/searchimg.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/turn.png" afterPath="$PROJECT_DIR$/webapp/img/turn.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/userheader2.png" afterPath="$PROJECT_DIR$/webapp/img/userheader2.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/wb.jpg" afterPath="$PROJECT_DIR$/webapp/img/wb.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/wboke.png" afterPath="$PROJECT_DIR$/webapp/img/wboke.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/wdgz.png" afterPath="$PROJECT_DIR$/webapp/img/wdgz.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/wdsc.png" afterPath="$PROJECT_DIR$/webapp/img/wdsc.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/ywxg.png" afterPath="$PROJECT_DIR$/webapp/img/ywxg.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/zan (2).png" afterPath="$PROJECT_DIR$/webapp/img/zan (2).png" />
-      <change beforePath="$PROJECT_DIR$/web/img/zan.png" afterPath="$PROJECT_DIR$/webapp/img/zan.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/zan1.png" afterPath="$PROJECT_DIR$/webapp/img/zan1.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/zan2.png" afterPath="$PROJECT_DIR$/webapp/img/zan2.png" />
-      <change beforePath="$PROJECT_DIR$/web/img/分类 (1).png" afterPath="$PROJECT_DIR$/webapp/img/分类 (1).png" />
-      <change beforePath="$PROJECT_DIR$/web/img/美食1.jpg" afterPath="$PROJECT_DIR$/webapp/img/美食1.jpg" />
-      <change beforePath="$PROJECT_DIR$/web/img/评论.png" afterPath="$PROJECT_DIR$/webapp/img/评论.png" />
-      <change beforePath="$PROJECT_DIR$/web/index2.jsp" afterPath="$PROJECT_DIR$/webapp/index2.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/js/ajaxFile.js" afterPath="$PROJECT_DIR$/webapp/js/ajaxFile.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/boke.js" afterPath="$PROJECT_DIR$/webapp/js/boke.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/creatresource.js" afterPath="$PROJECT_DIR$/webapp/js/creatresource.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/download.js" afterPath="$PROJECT_DIR$/webapp/js/download.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/editorPerson.js" afterPath="$PROJECT_DIR$/webapp/js/editorPerson.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/enroll.js" afterPath="$PROJECT_DIR$/webapp/js/enroll.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/home.js" afterPath="$PROJECT_DIR$/webapp/js/home.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.11.0.js" afterPath="$PROJECT_DIR$/webapp/js/jquery-1.11.0.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery-2.1.0.js" afterPath="$PROJECT_DIR$/webapp/js/jquery-2.1.0.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/login.js" afterPath="$PROJECT_DIR$/webapp/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/manage.js" afterPath="$PROJECT_DIR$/webapp/js/manage.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/noteshare.js" afterPath="$PROJECT_DIR$/webapp/js/noteshare.js" />
-      <change beforePath="$PROJECT_DIR$/web/js/person.js" afterPath="$PROJECT_DIR$/webapp/js/person.js" />
-      <change beforePath="$PROJECT_DIR$/web/layer/layer.js" afterPath="$PROJECT_DIR$/webapp/layer/layer.js" />
-      <change beforePath="$PROJECT_DIR$/web/layer/mobile/layer.js" afterPath="$PROJECT_DIR$/webapp/layer/mobile/layer.js" />
-      <change beforePath="$PROJECT_DIR$/web/layer/mobile/need/layer.css" afterPath="$PROJECT_DIR$/webapp/layer/mobile/need/layer.css" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/icon-ext.png" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/icon-ext.png" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/icon.png" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/icon.png" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/layer.css" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/layer.css" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/loading-0.gif" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/loading-0.gif" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/loading-1.gif" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/loading-1.gif" />
-      <change beforePath="$PROJECT_DIR$/web/layer/theme/default/loading-2.gif" afterPath="$PROJECT_DIR$/webapp/layer/theme/default/loading-2.gif" />
-      <change beforePath="$PROJECT_DIR$/web/webs/.project" afterPath="$PROJECT_DIR$/webapp/webs/.project" />
-      <change beforePath="$PROJECT_DIR$/web/webs/addBlogs.jsp" afterPath="$PROJECT_DIR$/webapp/webs/addBlogs.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/addBlogsbak.jsp" afterPath="$PROJECT_DIR$/webapp/webs/addBlogsbak.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/blogoSphere/noteshare.jsp" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/blogoSphere/noteshare_my.jsp" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/boke.jsp" afterPath="$PROJECT_DIR$/webapp/webs/boke.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/creatresource.jsp" afterPath="$PROJECT_DIR$/webapp/webs/creatresource.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/css/mui.css" afterPath="$PROJECT_DIR$/webapp/webs/css/mui.css" />
-      <change beforePath="$PROJECT_DIR$/web/webs/css/mui.min.css" afterPath="$PROJECT_DIR$/webapp/webs/css/mui.min.css" />
-      <change beforePath="$PROJECT_DIR$/web/webs/download.html" afterPath="$PROJECT_DIR$/webapp/webs/download.html" />
-      <change beforePath="$PROJECT_DIR$/web/webs/download.jsp" afterPath="$PROJECT_DIR$/webapp/webs/download.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/downloadInner.jsp" afterPath="$PROJECT_DIR$/webapp/webs/downloadInner.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/downloadSearchResult.jsp" afterPath="$PROJECT_DIR$/webapp/webs/downloadSearchResult.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/download_look_res.jsp" afterPath="$PROJECT_DIR$/webapp/webs/download_look_res.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/editorPerson.jsp" afterPath="$PROJECT_DIR$/webapp/webs/editorPerson.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/enroll.jsp" afterPath="$PROJECT_DIR$/webapp/webs/enroll.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/error.html" afterPath="$PROJECT_DIR$/webapp/webs/error.html" />
-      <change beforePath="$PROJECT_DIR$/web/webs/fonts/mui.ttf" afterPath="$PROJECT_DIR$/webapp/webs/fonts/mui.ttf" />
-      <change beforePath="$PROJECT_DIR$/web/webs/index.jsp" afterPath="$PROJECT_DIR$/webapp/webs/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/information.jsp" afterPath="$PROJECT_DIR$/webapp/webs/information.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/inner.jsp" afterPath="$PROJECT_DIR$/webapp/webs/inner.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/js/mui.js" afterPath="$PROJECT_DIR$/webapp/webs/js/mui.js" />
-      <change beforePath="$PROJECT_DIR$/web/webs/js/mui.min.js" afterPath="$PROJECT_DIR$/webapp/webs/js/mui.min.js" />
-      <change beforePath="$PROJECT_DIR$/web/webs/login.jsp" afterPath="$PROJECT_DIR$/webapp/webs/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/webs/noteshare.html" afterPath="$PROJECT_DIR$/webapp/webs/noteshare.html" />
-      <change beforePath="$PROJECT_DIR$/web/webs/person.jsp" afterPath="$PROJECT_DIR$/webapp/webs/person.jsp" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/index.jsp" afterPath="$PROJECT_DIR$/webapp/webs/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -318,16 +33,77 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-65168245">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shareskill" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeControllerImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/HomeControllerImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/webs/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
     <option name="projectSyncType">
       <map>
         <entry key="D:/Program Files/githublocalres/spring-security/samples/javaconfig/helloworld" value="PREVIEW" />
@@ -347,6 +123,7 @@
         <option value="$PROJECT_DIR$/webapp/css/boke.css" />
         <option value="$PROJECT_DIR$/webapp/admin/manage_user.jsp" />
         <option value="$PROJECT_DIR$/webapp/WEB-INF/tags/shareskill.tld" />
+        <option value="$PROJECT_DIR$/webapp/webs/index.jsp" />
       </list>
     </option>
   </component>
@@ -364,6 +141,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\z1176\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -380,17 +162,27 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shareskill" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shareskill" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shareskill" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-282" />
-    <option name="y" value="104" />
+    <option name="x" value="89" />
+    <option name="y" value="337" />
     <option name="width" value="1380" />
-    <option name="height" value="904" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -410,7 +202,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,18 +235,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="spring" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535298283363" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -479,10 +272,13 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
       <module />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -497,6 +293,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -507,7 +306,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
@@ -517,13 +316,9 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -536,7 +331,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
@@ -551,8 +346,12 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -564,6 +363,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_shareskill_6" />
+        <option name="HTTP_PORT" value="80" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -630,6 +430,9 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -646,46 +449,61 @@
       <option name="presentableId" value="Default" />
       <updated>1533826787120</updated>
       <workItem from="1533826792247" duration="9197000" />
+      <workItem from="1534172868598" duration="46000" />
+      <workItem from="1534861483143" duration="133000" />
+      <workItem from="1535295768797" duration="658000" />
+      <workItem from="1535296968293" duration="1244000" />
+      <workItem from="1535807808822" duration="2100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9197000" />
+    <option name="totallyTimeSpent" value="13378000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63993454" sideWeight="0.5030257" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63993454" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40468988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45826513" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59247136" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22422259" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45737705" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3535188" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5531915" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -704,7 +522,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -712,51 +530,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/message.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message.properties" />
+    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/message.properties" />
     <entry file="file://$PROJECT_DIR$/target/shareskill-1.0-SNAPSHOT/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6437" column="32" lean-forward="false" selection-start-line="6437" selection-start-column="32" selection-end-line="6437" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
           <caret line="115" column="42" lean-forward="true" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,6 +648,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="244" column="21" lean-forward="true" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/homeslideshow/416fb6c569069d6f8e5358a53871566b.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/HomeControllerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>

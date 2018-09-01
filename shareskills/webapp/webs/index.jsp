@@ -26,7 +26,7 @@
 					<div id="picBox">
 						<ul id="ul">
 							<c:forEach var="lbStr" items="${lbList}">
-								<li><img src="/img/${lbStr}"/></li>
+								<li><img src="/homeslideshow/${lbStr}"/></li>
 							</c:forEach>
 						</ul>
 				    </div>
