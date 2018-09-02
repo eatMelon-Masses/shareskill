@@ -6,24 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a817068e-cb6a-4016-b2fb-fbdd14b7a3bd" name="Default" comment="1.添加轮播图&#10;2.修改jsp轮播图路径">
+    <list default="true" id="a817068e-cb6a-4016-b2fb-fbdd14b7a3bd" name="Default" comment="1.样式修改&#10;9.2晚上修改部分">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shareskill/tags/ShowAllBlogs.java" afterPath="$PROJECT_DIR$/src/main/java/com/shareskill/tags/ShowAllBlogs.java" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/enroll.css" afterPath="$PROJECT_DIR$/webapp/css/enroll.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/login.css" afterPath="$PROJECT_DIR$/webapp/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/webapp/common/user_web_head.jsp" afterPath="$PROJECT_DIR$/webapp/common/user_web_head.jsp" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/download.css" afterPath="$PROJECT_DIR$/webapp/css/download.css" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/downloadInner.css" afterPath="$PROJECT_DIR$/webapp/css/downloadInner.css" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/headerTop.css" afterPath="$PROJECT_DIR$/webapp/css/headerTop.css" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/inner.css" afterPath="$PROJECT_DIR$/webapp/css/inner.css" />
       <change beforePath="$PROJECT_DIR$/webapp/css/noteshare.css" afterPath="$PROJECT_DIR$/webapp/css/noteshare.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/person.css" afterPath="$PROJECT_DIR$/webapp/css/person.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/img/分类 (1).png" afterPath="$PROJECT_DIR$/webapp/img/category.png" />
-      <change beforePath="$PROJECT_DIR$/webapp/img/美食1.jpg" afterPath="$PROJECT_DIR$/webapp/img/cate.jpg" />
-      <change beforePath="$PROJECT_DIR$/webapp/img/评论.png" afterPath="$PROJECT_DIR$/webapp/img/comment.png" />
+      <change beforePath="$PROJECT_DIR$/webapp/js/noteshare.js" afterPath="$PROJECT_DIR$/webapp/js/noteshare.js" />
       <change beforePath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" />
       <change beforePath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/boke.jsp" afterPath="$PROJECT_DIR$/webapp/webs/boke.jsp" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/enroll.jsp" afterPath="$PROJECT_DIR$/webapp/webs/enroll.jsp" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/information.jsp" afterPath="$PROJECT_DIR$/webapp/webs/information.jsp" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/login.jsp" afterPath="$PROJECT_DIR$/webapp/webs/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/noteshare.html" afterPath="$PROJECT_DIR$/webapp/webs/noteshare.html" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/person.jsp" afterPath="$PROJECT_DIR$/webapp/webs/person.jsp" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/inner.jsp" afterPath="$PROJECT_DIR$/webapp/webs/inner.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,21 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noteshare.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/css/noteshare.css">
+      <file leaf-file-name="download.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/css/download.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="23">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boke.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
+      <file leaf-file-name="download.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/webs/download.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1104">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -108,36 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noteshare.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_web_head.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/common/user_web_head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogoSphereControllerImp_json.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogoSphereControllerImp_json.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -175,8 +139,16 @@
         <option value="$PROJECT_DIR$/webapp/webs/noteshare.html" />
         <option value="$PROJECT_DIR$/webapp/webs/person.jsp" />
         <option value="$PROJECT_DIR$/webapp/css/person.css" />
+        <option value="$PROJECT_DIR$/webapp/webs/inner.jsp" />
+        <option value="$PROJECT_DIR$/webapp/css/downloadInner.css" />
+        <option value="$PROJECT_DIR$/webapp/js/noteshare.js" />
+        <option value="$PROJECT_DIR$/webapp/common/user_web_head.jsp" />
         <option value="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" />
+        <option value="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" />
+        <option value="$PROJECT_DIR$/webapp/css/inner.css" />
+        <option value="$PROJECT_DIR$/webapp/css/headerTop.css" />
         <option value="$PROJECT_DIR$/webapp/css/noteshare.css" />
+        <option value="$PROJECT_DIR$/webapp/css/download.css" />
       </list>
     </option>
   </component>
@@ -270,7 +242,19 @@
               <item name="shareskill" type="b2602c69:ProjectViewProjectNode" />
               <item name="shareskills" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ckeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shareskill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shareskills" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shareskill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shareskills" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shareskill" type="b2602c69:ProjectViewProjectNode" />
@@ -587,7 +571,7 @@
       <workItem from="1535296968293" duration="1244000" />
       <workItem from="1535807808822" duration="6245000" />
       <workItem from="1535871513157" duration="647000" />
-      <workItem from="1535872235782" duration="9449000" />
+      <workItem from="1535872235782" duration="19861000" />
     </task>
     <task id="LOCAL-00001" summary="1.添加轮播图&#10;2.修改jsp轮播图路径">
       <created>1535810437125</created>
@@ -596,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535810437125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.样式修改">
+      <created>1535881753215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535881753215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27619000" />
+    <option name="totallyTimeSpent" value="38031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +603,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -627,17 +618,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22422259" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45662847" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45612136" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3535188" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38134205" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5406284" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -650,6 +641,42 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63993454" sideWeight="0.5030257" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13993949" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22422259" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45662847" sideWeight="0.4969743" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3535188" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38297874" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -686,7 +713,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.修改了项目结构&#10;2.应该可以部署成功," />
     <MESSAGE value="1.添加轮播图&#10;2.修改jsp轮播图路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.添加轮播图&#10;2.修改jsp轮播图路径" />
+    <MESSAGE value="1.样式修改" />
+    <MESSAGE value="1.样式修改&#10;9.2晚上修改部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.样式修改&#10;9.2晚上修改部分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,20 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/download.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/downloadInner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/css/editorPerson.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -787,13 +802,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/css/error.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/inner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
@@ -902,14 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/headerTop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/common/web_head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138">
@@ -942,10 +942,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/downloadInner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/js/noteshare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="67" column="8" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="67" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/common/user_web_head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/noteshare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/inner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/inner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -958,26 +1006,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/person.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/webs/person.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="713">
           <caret line="115" column="116" lean-forward="false" selection-start-line="115" selection-start-column="116" selection-end-line="115" selection-end-column="116" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/person.css">
+    <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="-391">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/webs/noteshare.html">
+    <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="276">
+          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/noteshare.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -990,26 +1054,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
+    <entry file="file://$PROJECT_DIR$/webapp/webs/download.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/noteshare.css">
+    <entry file="file://$PROJECT_DIR$/webapp/css/headerTop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="115">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
+    <entry file="file://$PROJECT_DIR$/webapp/css/download.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1104">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="23">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>

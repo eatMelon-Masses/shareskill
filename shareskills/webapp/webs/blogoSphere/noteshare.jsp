@@ -46,7 +46,7 @@
 												<img src="../img/hand1.png" id="img"/>
 											</c:otherwise>
 										</c:choose>
-										<h2>${tempBS.user.yhnc}</h2><p><fmt:formatDate value="${tempBS.wordDate}" pattern="MM-dd E hh:mm"/></p>
+										<div class="account"><h2>${tempBS.user.yhnc}</h2><p><fmt:formatDate value="${tempBS.wordDate}" pattern="MM-dd E hh:mm"/></p></div>
 									</div>
 									<div class="userspeak">
 										<p>${tempBS.userWord}</p><br/>
@@ -105,14 +105,14 @@
 						<p></p><p></p><p></p>
 					</div>
 				</div>
-				<div class="noteRightbot">
-					<img src="../img/bg(1).png"/>
-					<div class="noteRightbot_in">
-						<img src="../img/wdsc.png" /><a href="noteshareChild/collect.html">我的收藏</a><br/>
-						<img src="../img/wdgz.png"/><a href="noteshareChild/attention.html">我的关注</a><br/>
-						<img src="../img/ywxg.png"/><a href="noteshareChild/related.html">与我相关</a>
-					</div>
-				</div>
+				<%--<div class="noteRightbot">--%>
+					<%--<img src="../img/bg(1).png"/>--%>
+					<%--<div class="noteRightbot_in">--%>
+						<%--<img src="../img/wdsc.png" /><a href="noteshareChild/collect.html">我的收藏</a><br/>--%>
+						<%--<img src="../img/wdgz.png"/><a href="noteshareChild/attention.html">我的关注</a><br/>--%>
+						<%--<img src="../img/ywxg.png"/><a href="noteshareChild/related.html">与我相关</a>--%>
+					<%--</div>--%>
+				<%--</div>--%>
 			</div>
 		</section>
 		

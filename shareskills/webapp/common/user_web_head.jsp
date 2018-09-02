@@ -24,7 +24,7 @@
     </div>
     <div class="boke"><img  class="bokeimg" src="../img/wboke.png" /></div>
     <nav class="toplogin">
-        <a class="wboke" href="/webs/addBlogs.jsp">写博客</a>&nbsp;
+        <a class="wboke" href="webs/addBlogs.jsp">写博客</a>&nbsp;
         <c:if test="${empty mumber}">
 
         </c:if>

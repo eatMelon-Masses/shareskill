@@ -19,11 +19,11 @@
 			</div>
 		</article>
 		<section>
-			<div class="visit">
-				<input type="image" src="../img/turn.png" />
-				<input type="image" src="../img/zan.png" />
-				<input id="visit" type="image" src="../img/news.png" />
-			</div>
+			<%--<div class="visit">--%>
+				<%--<input type="image" src="../img/turn.png" />--%>
+				<%--<input type="image" src="../img/zan.png" />--%>
+				<%--<input id="visit" type="image" src="../img/news.png" />--%>
+			<%--</div>--%>
 			<s:form commandName="bc" method="post" action="/addBlogComment?blogId=${blog.id}">
 				<s:input path="plnr" id="visitInner" type="text" placeholder="我也说一句"/>
 				<input id="visitBtn" type="submit" value="发送" />

@@ -8,7 +8,7 @@ header{
 	position: fixed;
 	border-bottom: 2px solid #7AC9CB;
 }
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 a:link {color:black;} /*未访问的链接 */
 header a:hover {color:#76C7C8} /*鼠标划过链接 */
 header a:active {color:#FF6666;} /* 已选中的链接 */

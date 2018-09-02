@@ -88,9 +88,11 @@ span{clear: left;margin-left: 20px;}
 	width: 420px;
 	height: 250px;
 	margin-top: 10px;
+	margin-right: 5px;
 	float: left;
 	background: white;
 	border-bottom:2px solid #ECE9D8;
+
 }
 .lanstudy{margin-left: 10px;}
 .edustudytop,.lanstudytop{width: 420px;height: 30px;background: #ECE9D8;padding-top: 5px;}

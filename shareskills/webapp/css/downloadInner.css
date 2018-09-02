@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -11,7 +11,7 @@ article{padding-top: 100px;}
 .download h2{margin-left: 1%;margin-top: 20px;}
 #inform{width: 100%;height:40px;margin-left: 1%;border-bottom: 1px solid #66CCCC;}
 .downloadNum{margin-left: 20%;}
-#inform p{float: left;margin: 10px 1%;margin-right: 3%;width: 15%;}
+#inform p{float: left;margin: 10px 1%;margin-right: 3%;width: 20%;}
 #txt{
 	clear: both;line-height: 25px;text-indent: 2em;/*段落前面空两个格*/
 	width: 100%;border-bottom: 1px solid #66CCCC;

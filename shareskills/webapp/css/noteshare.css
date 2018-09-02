@@ -38,7 +38,7 @@ ul,ol,li{list-style: none;}
 	width: 70px;
 	height: 25px;
 	margin-top: 10px;
-	margin-left: 450px;
+	margin-left: 80%;
 	background: #66CCCC;
 	border-radius: 10px;
 }
@@ -48,20 +48,22 @@ ul,ol,li{list-style: none;}
 	height: 50px;
 	background: white;
 	margin-left: 25px;
-	font-size: 18px;
+	font-size: 15px;
 	font-family: "华文仿宋";
 }
-
 #dynamic input:hover{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
 .btnclass{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
 
 #dynamicDiv{margin-top: 10px;width: 650px;}
 #dynamicDiv div{clear: both;margin-bottom: 20px;}
 #dynamicDiv div div{background: white;margin-bottom: 10px;border-radius: 10px;}
-.userimg{height: 74px;}
+.userimg{height: 74px;position: relative;}
 .userimg,.userspeak,#visit{margin-top: 10px;margin-left: 30px;}
-.userimg input,.userimg p{float: left;margin-top:5px ;}
-.userimg h2,.userimg p{margin: 5px 20px;vertical-align: bottom;}
+/*.userimg input,.userimg p{float: left;margin-top:5px ;}*/
+#img{float: left;margin-top: 10px;position: absolute;}
+.userimg h2{margin: 10px 90px;position: absolute;}
+.userimg p{margin-left: 90px;position: absolute;margin-top: 55px;}
+
 #visit input{margin-right: 40px;}
 /*右边*/
 .noteRight{

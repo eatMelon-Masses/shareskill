@@ -19,10 +19,10 @@
 				<div class="speak">
 					<s:form commandName="blogsSphere" action="/addUserWord" method="post">
 						<s:textarea  path="userWord" id="shuoshuo" name="keyWord" type="text" placeholder="说点什么吧！"></s:textarea>
-						<div class="release">
-							<input type="image" src="../img/face.png"/>
-							<input type="image" src="../img/pic1.png"/>
-						</div>
+						<%--<div class="release">--%>
+							<%--<input type="image" src="../img/face.png"/>--%>
+							<%--<input type="image" src="../img/pic1.png"/>--%>
+						<%--</div>--%>
 						<input id="releaseBtn" type="submit" value="发布" />
 					</s:form>
 
@@ -30,7 +30,7 @@
 				<div id="dynamic">
 					<a href="/showUserBlogSphereByType">热门</a>
 					<input type="button" value="全部"/>
-					<input type="button" value="我的说说"/>
+					<input type="button" value="我的"/>
 					<input type="button" value="图片"/>
 				</div>
 				<div id="dynamicDiv">
@@ -53,11 +53,11 @@
 									<div class="userspeak">
 										<p>${tempBS.userWord}</p><br/>
 									</div>
-									<div class="visit">
-										<input type="image" src="../img/turn.png" />
-										<input type="image" src="../img/news.png" />
-										<input type="image" src="../img/zan (2).png" />
-									</div>
+									<%--<div class="visit">--%>
+										<%--<input type="image" src="../img/turn.png" />--%>
+										<%--<input type="image" src="../img/news.png" />--%>
+										<%--<input type="image" src="../img/zan (2).png" />--%>
+									<%--</div>--%>
 								</div>
 						</c:forEach>
 						<div>

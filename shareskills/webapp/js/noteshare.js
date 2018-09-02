@@ -59,11 +59,11 @@ window.onload=function (){
 	setInterval(tick,1000);
 	tick();
 	
-	/*点赞*/
-	var oVis=document.getElementById("zan");
-	
-	oZan.onclick=function (){
-		var src="../img/zan2.png";
-		this.src=src;
-	}
+	// /*点赞*/
+	// var oVis=document.getElementById("zan");
+	//
+	// oZan.onclick=function (){
+	// 	var src="../img/zan2.png";
+	// 	this.src=src;
+	// }
 };
