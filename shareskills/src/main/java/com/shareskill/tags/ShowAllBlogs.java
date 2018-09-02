@@ -38,7 +38,7 @@ public class ShowAllBlogs extends SimpleTagSupport {
                 sb.append("<dd>\n");
                 sb.append("<div id=\"fenlei\">" + "分类:" + tempCate.getFlmc() + "</div>\n");
                 sb.append("<input type=\"datetime\" id=\"dataTime\" value=" + blog.getBwcjsj().toString()+"/>\n");
-                sb.append("<input type=\"image\" name=\"criticize\" id=\"criticize\" src=\"../img/评论.png\" /> ");
+                sb.append("<input type=\"image\" name=\"criticize\" id=\"criticize\" src=\"../img/comment.png\" /> ");
                 sb.append("<p>" + "访问量:" + Integer.toString(blog.getBwdjcs()) + "</p>");
                 sb.append("</dd>\n");
                 sb.append("</dl>\n");

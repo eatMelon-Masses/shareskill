@@ -4,12 +4,13 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/enroll.css"/>
+		<script src="../js/enroll.js" type="text/javascript" charset="utf-8"></script>
 		<meta charset="utf-8" />
 		<title>用户注册</title>
 	</head>
 	<body>
 		<header>
-			<div class="logo"><a href="index.jsp"><img src="/img/logo (2).png" /></a></div>
+			<div class="logo"><a href="/showHome"><img src="/img/logo (2).png" /></a></div>
 			<div class="exit">
 				<a href="/writeSignForm">登录</a>&nbsp;&nbsp;
 				<a href="/showHome">主页</a>
@@ -28,9 +29,12 @@
 					<s:errors path="dlmm" cssClass="errors"/>
 					<s:input type="password"  placeholder="请输入密码" id="password" path="dlmm"/><td><font color="red"><s:errors path="dlmm"/></font></td> <br>
 					<input type="password"  placeholder="请再次确认密码" id="password2"/><br>
-					<s:input type="date" path="csny"/><td><font color="red"><s:errors path="csny"/></font></td><br>
-					<s:input type="text" path="grjj"/><br>
-					<input type="submit" name="enrollbtn" id="enrollbtn" value="注册" />
+					<s:input type="date" path="csny" id="csny" placeholder="请输入出生年月"/><td><font color="red"><s:errors path="csny"/></font></td><br>
+					<s:input type="text" path="grjj" id="grjj" placeholder="请输入个人简介"/><br>
+					<input type="text" id="codeTxt" placeholder=" 验证码" />
+					<div class="code" id="codeDiv" onclick="createCode()" title="看不清?点击此处换一张"></div>
+					<input type="submit" name="enrollbtn" id="enrollbtn" onclick="judgeCode()" value="注册" />
+					<a href="/writeSignForm">已有账号？立即登录</a>
 					<%--<s:errors path="user.zh"/>--%>
 				</s:form>
 			</div>

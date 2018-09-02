@@ -91,7 +91,7 @@
 							</div>
 							<div class="userspeak">
 								<p>lala</p><br/>
-								<img src="../img/美食1.jpg" />
+								<img src="../img/cate.jpg" />
 							</div>
 							<div class="visit">
 								<input type="image" src="../img/turn.png" />
@@ -106,7 +106,7 @@
 							</div>
 							<div class="userspeak">
 								<p>lala</p><br/>
-								<img src="../img/美食1.jpg" />
+								<img src="../img/cate.jpg" />
 							</div>
 							<div class="visit">
 								<input type="image" src="../img/turn.png" />

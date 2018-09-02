@@ -53,7 +53,7 @@ section{
 	border-radius: 5px 5px 5px 5px;
 	background: rgba(255,255,255,0.2);
 }
-#username,#password,#loginbtn{
+#zh,#dlmm,#loginbtn{
 	width: 173px;
 	margin-top: 20px;
 	margin-left: 60px;
@@ -82,7 +82,7 @@ section{
 	height: 30px;
 	background: rgba(255,250,255,0.2);
 }
-.login a{font-size: 12px;margin-left: 100px;color: deeppink}
+.login a{font-size: 12px;margin-left: 150px;color: deeppink}
 input::-webkit-input-placeholder { 
 	color: #999; 
 	-webkit-transition: color.5s; 

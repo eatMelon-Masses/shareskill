@@ -14,7 +14,7 @@
 		<%@include file="/common/user_web_head.jsp"%>
 		<article>
 			<!-- 头部分类区-->
-			<div class="fenleiimg"><img src="../img/分类 (1).png"></div>
+			<div class="fenleiimg"><img src="../img/category.png"></div>
 			<div id="bokedivMenu" class="bokedivMenu" >
 				<c:forEach var="tempCate" items="${catesList}">
 					<c:choose>

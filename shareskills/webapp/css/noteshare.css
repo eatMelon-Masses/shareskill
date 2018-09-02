@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -38,7 +38,7 @@ ul,ol,li{list-style: none;}
 	width: 70px;
 	height: 25px;
 	margin-top: 10px;
-	margin-left: 410px;
+	margin-left: 450px;
 	background: #66CCCC;
 	border-radius: 10px;
 }

@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -40,7 +40,7 @@ section section{margin-left:0;margin-top: 10px;width: 100%;background: white;}
 /*各个分页内容*/
 section section p{width: 100%;height: 30px;border-bottom: 1px solid black;color: gray;margin: 10px 5px;}
 .myDynamic{margin: 10px 5px;border-bottom: 1px dashed #66CCCC;height: 80px;}
-#txt{
+.txt{
 	width: 100%;height: 47px;
 	font-size: 15px;line-height: 25px;
 	text-indent: 2em;/*段落前面空两个格*/
@@ -50,7 +50,7 @@ section section p{width: 100%;height: 30px;border-bottom: 1px solid black;color:
 }
 .myDynamic p,.myVisit p{width:20%;height: 25px;float: left;color: #66CCCC;border: none;margin-right: 15%;font-size: 12px;}
 .myVisit{margin: 10px 5px;border-bottom: 1px dashed #66CCCC;height: 90px;}
-.delete{width: 10%;height: 20px;background-color: #66CCCC;border-radius: 10px;margin-left: 15%;margin-top: 5px;}
+.delete{color: #66CCCC;margin-left: 15%;margin-top: 15px;font-size: 13px}
 /*左侧的小便签*/
 .personvisit{margin-left:1%;margin-top: 10px;width: 19%;height: 500px;position: relative;}
 .personvisit img{position: absolute;}

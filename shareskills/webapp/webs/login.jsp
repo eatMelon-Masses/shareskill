@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo"><a href="index.jsp"><img src="/img/logo (2).png" /></a></div>
+			<div class="logo"><a href="/showHome"><img src="/img/logo (2).png" /></a></div>
 			<div class="exit">
 				<a class="enroll" href="/writeReisForm">注册</a>&nbsp;&nbsp;
 			    <a href="/showHome">退出</a>
@@ -28,7 +28,7 @@
 						</div>
 						<input type="submit" name="loginbtn" id="loginbtn" value="登录" />
 				</s:form>
-				<a href="enroll.jsp" id="aEnroll">去注册</a>
+				<a href="/writeReisForm" id="aEnroll">没有账号?去注册</a>
 			</div>
 		</section>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

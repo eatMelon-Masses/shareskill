@@ -34,7 +34,7 @@
 		</header>
 		<section>
 			<div id="bokediv">
-				<div class="fenleiimg"><img src="/img/分类 (1).png"></div>
+				<div class="fenleiimg"><img src="/img/category.png"></div>
 				<div id="bokedivMenu" class="bokedivMenu">
 					<a href="focus.html">关注</a>
 					<a href="information.jsp" style="background: #66CCCC;">资讯</a>

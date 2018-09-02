@@ -13,6 +13,7 @@
 	<body>
 	<!-- 用户页面头部-->
 	<%@include file="/common/user_web_head.jsp"%>
+	<article>
 	<label for="bgfile">
 		<div class="bgimg"><!--背景图片 -->
 			<c:choose>
@@ -95,7 +96,7 @@
 			<div>
 				<c:forEach var="tempbc" items="${bpList}">
 					<div class="myDynamic">
-						<div id="txt">
+						<div class="txt">
 								${tempbc.userWord}
 						</div>
 						<p><fmt:formatDate value="${tempbc.wordDate}" pattern="MM-dd E hh:mm"/></p>
@@ -108,11 +109,11 @@
 			<div>
 				<c:forEach var="tempbc" items="${bcList}">
 					<div class="myVisit">
-						<div id="txt">
+						<div class="txt">
 							${tempbc.plnr}
 						</div>
 						<p><fmt:formatDate value="${tempbc.plsj}" pattern="MM-dd E hh:mm"/></p>
-						<a  href="/delBlogComment?blogId=${tempbc.blog}&bcId=${tempbc.id}&type=1" class="delete"  >删除</a>
+						<a class="delete" href="/delBlogComment?blogId=${tempbc.blog}&bcId=${tempbc.id}&type=1">删除评论</a>
 					</div>
 				</c:forEach>
 			</div>
@@ -122,10 +123,10 @@
 			<div>
 				<c:forEach var="tempBlog" items="${blogList}">
 					<div class="myDynamic">
-						<div id="txt">
+						<div class="txt">
 							${tempBlog.bwnr}
 						</div>
-						<p>${tempBlog.bwcjsj}</p><p>访问量:${tempBlog.bwdjcs}</p><a href="/delBlog?id=${tempBlog.id}" class="delete"  >删除</a>
+						<p>${tempBlog.bwcjsj}</p><p>访问量:${tempBlog.bwdjcs}</p><a href="/delBlog?id=${tempBlog.id}" class="delete">删除博客</a>
 					</div>
 				</c:forEach>
 			</div>
