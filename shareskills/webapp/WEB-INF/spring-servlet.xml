@@ -17,6 +17,8 @@
       <context:component-scan base-package="com.shareskill.controllerimp"  />    
       <context:component-scan base-package="com.shareskill.serviceImp"  />  
       <context:component-scan base-package="com.shareskill.model"/>
+      <context:component-scan base-package="com.shareskill.aop"/>
+    <context:component-scan base-package="com.shareskill.utils"/>
     <bean id="validator"
     class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
     <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
