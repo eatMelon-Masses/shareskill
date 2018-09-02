@@ -9,8 +9,5 @@
         <module name="shareskill" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="shareskill" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
