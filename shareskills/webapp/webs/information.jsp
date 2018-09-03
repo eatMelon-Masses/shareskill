@@ -59,10 +59,10 @@
                                         <h3>${blogItem.bwbt}</h3>
                                         <img src="/img/zan%20(2).png"><p>${blogItem.editor}</p>
                                         <div id="txt">${blogItem.bwnr}</div>
-                                        <div>
-                                            <img src="/img/wdsc.png" />
-                                            <img src="/img/news.png" />
-                                        </div>
+                                        <%--<div>--%>
+                                            <%--<img src="/img/wdsc.png" />--%>
+                                            <%--<img src="/img/news.png" />--%>
+                                        <%--</div>--%>
                                     </div>
                                 </c:forEach>
 

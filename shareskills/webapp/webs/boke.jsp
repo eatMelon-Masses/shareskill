@@ -31,7 +31,7 @@
 			<div id="bokedivIn">
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/focus.png"/>
+						<%--<img src="../img/bokeDiv/focus.png"/>--%>
 							<c:choose>
 								<c:when test="${cateId eq null}">
 
@@ -49,15 +49,15 @@
 								<a href="/viewBlog?id=${blogItem.id}"><h3>${blogItem.bwbt}</h3></a>
 								<img src="/img/zan%20(2).png"><p>${blogItem.editor}</p>
 								<div id="txt">${blogItem.bwnr}</div>
-								<div>
-									<img src="/img/wdsc.png" />
-									<img src="/img/news.png" />
-								</div>
+								<%--<div>--%>
+									<%--<img src="/img/wdsc.png" />--%>
+									<%--<img src="/img/news.png" />--%>
+								<%--</div>--%>
 							</div>
 						</c:forEach>
 					</div>
 				</div>
-				<div>
+				<div class="pagestyle">
 					<c:if test="${page.pageTotal gt 1}">
 						当前第[${page.pageNo}/${page.pageTotal}]页[<a href="${page.uri}&pageNo=1">首页</a>]
 					</c:if>
@@ -81,80 +81,62 @@
 					<c:if test="${page.pageTotal gt 1}">
 						[<a href="${page.uri}&pageNo=${page.pageTotal}">尾页</a>]
 					</c:if>
+				</div>
+				<div>
+					<div class="bokeDivimg" >
+						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
+					</div>
+					<div class="bokeDivInner">
 
-
-
-				</div>
-				<div>
-					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/fashion.png"/>
-						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
-					</div>
-					<div class="bokeDivInner">
-						时尚
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/entertainment.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-					娱乐
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/life.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						生活
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/finance.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						财经
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/sports.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						运动
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/food.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						美食
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/film.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						电影
 					</div>
 				</div>
 				<div>
 					<div class="bokeDivimg" >
-						<img src="../img/bokeDiv/cartoon.png"/>
 						<input type="button" value="热门排序" />|<input type="button" value="时间排序"/>
 					</div>
 					<div class="bokeDivInner">
-						动漫
 					</div>
 				</div>
 			</div>

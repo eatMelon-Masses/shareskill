@@ -83,11 +83,11 @@
 						</c:if>
 
 					</div>
-					<div id="all">全部
+					<div id="all">
 					</div>
-					<div>博客</div>
+					<div></div>
 					<div id="pic">
-						图片
+
 					</div>
 				</div>
 			</div>

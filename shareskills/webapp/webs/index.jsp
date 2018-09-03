@@ -27,6 +27,10 @@
 						<ul id="ul">
 							<c:forEach var="lbStr" items="${lbList}">
 								<li><img src="/homeslideshow/${lbStr}"/></li>
+								<li><img src="../img/lb1.png"/></li>
+								<li><img src="../img/lb2.png"/></li>
+								<li><img src="../img/lb3.jpg"/></li>
+								<li><img src="../img/lb4.png"/></li>
 							</c:forEach>
 						</ul>
 				    </div>

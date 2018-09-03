@@ -115,12 +115,9 @@
 							</div>
 						</div>	--%>
 					</div>
-					<div id="all">全部
-					</div>
-					<div>博客</div>
-					<div id="pic">
-						图片
-					</div>
+					<div id="all"></div>
+					<div></div>
+					<div id="pic"></div>
 				</div>
 			</div>
 			<div class="noteRight">
@@ -137,14 +134,14 @@
 						<p></p><p></p><p></p>
 					</div>
 				</div>
-				<div class="noteRightbot">
-					<img src="../img/bg(1).png"/>
-					<div class="noteRightbot_in">
-						<img src="../img/wdsc.png" /><a href="noteshareChild/collect.html">我的收藏</a><br/>
-						<img src="../img/wdgz.png"/><a href="noteshareChild/attention.html">我的关注</a><br/>
-						<img src="../img/ywxg.png"/><a href="noteshareChild/related.html">与我相关</a>
-					</div>
-				</div>
+				<%--<div class="noteRightbot">--%>
+					<%--<img src="../img/bg(1).png"/>--%>
+					<%--<div class="noteRightbot_in">--%>
+						<%--<img src="../img/wdsc.png" /><a href="noteshareChild/collect.html">我的收藏</a><br/>--%>
+						<%--<img src="../img/wdgz.png"/><a href="noteshareChild/attention.html">我的关注</a><br/>--%>
+						<%--<img src="../img/ywxg.png"/><a href="noteshareChild/related.html">与我相关</a>--%>
+					<%--</div>--%>
+				<%--</div>--%>
 			</div>
 		</section>
 		
