@@ -63,7 +63,7 @@ public class BlogoSphereControllerImp_json implements BlogoSphereController_json
     }
 
     @ResponseBody
-    @ResourceMapping("/json/delBlogSphereById")
+    @RequestMapping("/json/delBlogSphereById")
     @Override
     public List<Object> delBlogSphereById(HttpServletRequest request, @Validated(BlogoSphere.BSRuleB.class) BlogoSphere bsId, BindingResult bindingResult) {
 
@@ -81,23 +81,20 @@ public class BlogoSphereControllerImp_json implements BlogoSphereController_json
             }
             return jsonList;
         }
-        TUser user = (TUser) request.getSession().getAttribute("mumber");
+
         BlogoSphere bs = blogoSphereService.loadBlogSphereById(bsId.getId());
 
-        if (user != null && bs != null) {//如果当前用户已登录或未超时
-            if (user.getId() == bs.getUser().getId()) {
-                blogoSphereService.delUserWordById(bs.getId());
-                mapList.put(RESULT, TRUE);
-                message.append("删除成功");
-            } else {
-
-                message.append("当前用户没有足够的权限");
-                return jsonList;
-            }
+        if (blogoSphereService.delUserWordById(bs.getId())) {
+            mapList.put(RESULT, TRUE);
+            message.append("删除成功");
         } else {
+            mapList.put(RESULT, FALSE);
             message.append("删除失败");
-            return jsonList;
         }
+
+
+
+
         return jsonList;
     }
     @ResponseBody
