@@ -2,7 +2,9 @@ package com.shareskill.controllerimp;
 
 import com.shareskill.controller.CategoryControllerForPhone;
 import com.shareskill.model.AbstractTBlogcategorytag;
+import com.shareskill.model.TBlog;
 import com.shareskill.model.TBlogcategorytag;
+import com.shareskill.service.BlogsService;
 import com.shareskill.service.CategoryService;
 import net.sf.json.JSONObject;
 import org.apache.commons.logging.Log;
@@ -31,6 +33,8 @@ import java.util.Map;
 public class CategoryControllerImpForPhone  implements CategoryControllerForPhone {
     @Resource
     private CategoryService categoryService;
+    @Autowired
+    BlogsService blogsService;
     final static String RESULT = "result";
     final static String MESSAGE = "message";
     final static String TRUE = "true";
@@ -80,8 +84,18 @@ public class CategoryControllerImpForPhone  implements CategoryControllerForPhon
         mapList.put(RESULT,FALSE);
         mapList.put(MESSAGE, message);
         jsonList.add(mapList);
+        TBlogcategorytag blogcategorytag = new TBlogcategorytag();
+        blogcategorytag.setId(id);
+        List<TBlog> blogList =blogsService.loadBlogsByCategory(blogcategorytag,2);
+        if (blogList.size() > 0) {
+            message.append("分类删除失败，请先删除该分类下所有用户博文");
+        } else {
+            message.append("分类删除成功");
+            categoryService.delCategory(blogcategorytag.getId());
+            mapList.put(RESULT, TRUE);
+        }
 
-        mapList.put(RESULT, TRUE);
+
         return jsonList;
     }
 

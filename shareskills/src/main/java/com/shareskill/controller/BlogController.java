@@ -15,6 +15,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
 public interface BlogController {
+    public String preAddBlog(Model model ,HttpServletRequest request);
 
     /**
      * 新增博文

@@ -46,6 +46,19 @@ public class BlogsControllerImp implements BlogController {
     @Resource
     private UserService userService;
     final static Log logger = LogFactory.getLog(BlogsControllerImp.class);
+
+    @RequestMapping("/preAddBlog")
+    @Override
+    public String preAddBlog(Model model, HttpServletRequest request) {
+        TUser sessionUser=(TUser) request.getSession().getAttribute("mumber");
+        if (sessionUser == null) {
+            model.addAttribute("massage", "请先登录");
+            return "forward:/showHome";
+        }
+        model.addAttribute("mumber", sessionUser);
+        return "/webs/addBlogs";
+    }
+
     /**
      * 新增博文
      * jsp && json
@@ -137,6 +150,9 @@ public class BlogsControllerImp implements BlogController {
        // TUser sessionUser=(TUser) request.getSession().getAttribute("mumber");
         if (id != null) {
             TBlog blog = blogService.loadBlogById(id);
+            if(blog==null){
+                return "";
+            }
             List <TBlogcomment> bcList=blogCommentService.browseBlogCommentByBlogId(id);
             blog.setBwdjcs(blog.getBwdjcs()+1);//增加点击次数
             blogService.saveOrUpdateBlog(blog);//保存修改

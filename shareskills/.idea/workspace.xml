@@ -6,19 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d15d584a-e542-4800-97d2-44fdcaef135e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/boke.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/css/boke.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/css/download.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/inner.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/css/inner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/noteshare.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/css/noteshare.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/boke.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/boke.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/download_look_res.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/download_look_res.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/information.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/information.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webs/inner.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/inner.jsp" afterDir="false" />
+    <list default="true" id="d15d584a-e542-4800-97d2-44fdcaef135e" name="Default" comment="Merge branch 'master' of http://github.com/eatMelon-Masses/shareskill&#10;&#10;# Conflicts:&#10;#&#9;shareskills/.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/shareskill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/homeslideshow/416fb6c569069d6f8e5358a53871566b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/homeslideshow/d2defc058d368e37d16f6b95bc79e4e5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/homeslideshow/d4c1c6ea98aa0f9780afc99c73323e36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shareskill/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shareskill/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogoSphereControllerImp_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogoSphereControllerImp_json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogsControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogsControllerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/CategoryControllerImpForPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/CategoryControllerImpForPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/common/user_web_head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/common/user_web_head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/addBlogs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webs/addBlogs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webs/error.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/webs/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -69,8 +70,8 @@
       <file leaf-file-name="noteshare.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="121">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -79,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1406">
-              <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+              <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -88,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/css/boke.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -97,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -383,15 +384,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27729000" />
+    <option name="totallyTimeSpent" value="27959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.39613527" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -407,8 +407,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.2979066" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.39613527" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.2979066" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.77616745" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31013617" />
@@ -416,12 +416,39 @@
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.39613527" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.39613527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31013617" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290461" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.2979066" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4992224" weight="0.54336286" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,6 +501,98 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webapp/webs/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/download_look_res.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="29" column="94" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/downloadSearchResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/downloadInner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/download.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/boke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/inner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/inner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/noteshare.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shareskill/controllerimp/BlogCommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -624,22 +743,18 @@
     <entry file="file://$PROJECT_DIR$/webapp/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/webs/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/webs/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webs/download.html" />
     <entry file="file://$PROJECT_DIR$/webapp/webs/download_look_res.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -681,7 +796,7 @@
     <entry file="file://$PROJECT_DIR$/webapp/css/boke.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -702,7 +817,7 @@
     <entry file="file://$PROJECT_DIR$/webapp/webs/boke.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -716,14 +831,14 @@
     <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare_my.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1406">
-          <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/webs/blogoSphere/noteshare.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="121">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
         </state>
       </provider>
     </entry>
