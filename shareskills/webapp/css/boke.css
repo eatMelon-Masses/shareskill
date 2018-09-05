@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -36,6 +36,7 @@ article{
 	margin-right: 64px;
 	border: 1px solid #7AC9CB;
 	border-radius: 10px;
+	overflow: hidden;
 }
 .click{background: #66CCCC;}
 /*各个部分内容上面*/
@@ -46,10 +47,10 @@ article{
 	margin: 20px auto;
 }
 .bokeDivimg img{margin-right: 535px;}
-.bokeDivimg input{background: white;font-size: 15px;}
+.bokeDivimg a{background: white;font-size: 15px;}
 /*各个部分内容*/
 .bokeDivInner{margin: 5px auto;width:850px;}
-.bokeDivInner h3{width: 700;height: 35px;}
+.bokeDivInner h3{width: 700px;height: 35px;}
 .bokeDivInner img,.bokeDivInner p{float: left;margin-bottom: 20px;}
 .bokeDivInner p{margin-left: 20px;}
 .bokeDivInner div{width: 700px;overflow: hidden;border-bottom: 1px dashed #66CCCC;margin-left: 75px;}
@@ -64,3 +65,6 @@ article{
 	
 }
 .bokeDivInner div div img{margin-right: 50px;}
+.pagestyle{margin: 20px auto;}
+.pagestyle a{font-size: 13px;color: #66CCCC;margin-left: 5px;}
+

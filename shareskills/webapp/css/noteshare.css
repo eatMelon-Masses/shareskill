@@ -65,6 +65,7 @@ ul,ol,li{list-style: none;}
 .userimg p{margin-left: 90px;position: absolute;margin-top: 55px;}
 
 #visit input{margin-right: 40px;}
+.delete{width: 30px;height: 20px;margin-left: 400px;margin-top: 10px;}
 /*右边*/
 .noteRight{
 	padding-top: 60px;

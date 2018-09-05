@@ -27,7 +27,7 @@
 
 			</section>
 			<section class="myresource">
-				<div><a href="/browseDataResourceByUser">我的资源</a><a href="/writeDataResource">制作资源</a></div>
+				<div class="myresourcetop"><a href="/browseDataResourceByUser" id="myresourceA">我的资源</a><a href="/writeDataResource">制作资源</a></div>
 				<div id="myresourceIn">
 			<%--		<div class="InDiv">
 						<h3>标题</h3>

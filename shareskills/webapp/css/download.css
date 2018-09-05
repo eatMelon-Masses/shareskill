@@ -72,7 +72,7 @@ span{clear: left;margin-left: 20px;}
 	color: #66CCCC;
 }
 .myresource p{float: left;padding-right: 84.7%;}
-.myresource a{float: left;background:#ECE9D8;height: 25px;width: 66px;}
+.myresourcetop a{float: left;width: 66px;color: #66CCCC;margin-top: 5px;}
 .InDiv{height: 75px;border-bottom: 1px dashed #66CCCC;clear: both;padding-top: 5px;}
 #xiaobianIn div h3,#myloadIn div h3,#mycollectIn div h3,#myresourceIn div h3{margin: 0px 5px;}
 #txt{
@@ -100,6 +100,9 @@ span{clear: left;margin-left: 20px;}
 .edustudytop a,.lanstudytop a{margin-left: 300px;color: black;}
 .edustudy div h4,.lanstudy div h4{border-bottom: 1px dashed #66CCCC;margin: 5px 10px;}
 
+
+.myresourcetop{width: 100%;background:#ECE9D8;height: 25px;}
+#myresourceA{margin-right: 80%;margin-left: 2%;}
 
 
 

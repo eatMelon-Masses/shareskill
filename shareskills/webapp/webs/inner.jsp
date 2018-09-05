@@ -26,7 +26,7 @@
 			<%--</div>--%>
 			<s:form commandName="bc" method="post" action="/addBlogComment?blogId=${blog.id}">
 				<s:input path="plnr" id="visitInner" type="text" placeholder="我也说一句"/>
-				<input id="visitBtn" type="submit" value="发送" />
+				<input id="visitBtn" type="submit" value="发表" />
 			</s:form>
 			<div class="visitIn">
 				<!-- 用户评论区-->
