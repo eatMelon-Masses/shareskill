@@ -18,9 +18,7 @@
 		<article>
 			<header id="downloadTopbar">
 				<a href="/showDownload">找资源</a>
-				<a>我的资源</a>
-				<a>已下载</a>
-				<a>我的收藏</a>
+				<a href="/browseDataResourceByUser">我的资源</a>
 				<div id="sport"></div>
 			</header>
 			<section>
@@ -49,7 +47,7 @@
 				</div>
 			</section>
 			<!-- 分页区-->
-			<div>
+			<div class="pagestyle">
 				<%--当前第[${page.pageNo}/${page.pageTotal}]页[<a href="${page.uri}1">首页</a>]
 				<c:choose>
 					<c:when test="${page.pageNo==1}">

@@ -22,8 +22,6 @@
             <header id="downloadTopbar">
                 <a href="/showDownload">找资源</a>
                 <a href="/browseDataResourceByUser">我的资源</a>
-                <a>已下载</a>
-                <a>我的收藏</a>
                 <div id="sport"></div>
             </header>
             <section>

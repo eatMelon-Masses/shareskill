@@ -138,7 +138,7 @@
 	<div class="personvisit">
 		<img src="../img/bg (2).jpg" />
 		<div class="personvisitIn">
-			<p>关注</p><p>粉丝</p><p>浏览量</p>
+			<p>关注 12</p><p>粉丝 10</p><p>浏览量 111</p>
 		</div>
 	</div>
 	</body>

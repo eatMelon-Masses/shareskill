@@ -29,9 +29,7 @@
 				</div>
 				<div id="dynamic">
 					<a href="/showUserBlogSphereByType">热门</a>
-					<input type="button" value="全部"/>
-					<input type="button" value="我的"/>
-					<input type="button" value="图片"/>
+                    <a href="/showMyBlogSphere">我的</a>
 				</div>
 				<div id="dynamicDiv">
 					<div id="hotnews">
@@ -82,7 +80,6 @@
 							<c:if test="${page.pageTotal gt 1}">
 								[<a href="${page.uri}?pageNo=${page.pageTotal}">尾页</a>]
 							</c:if>
-
 						</div>
 						<%--<div>
 							<div class="userimg">

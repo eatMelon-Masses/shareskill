@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -21,7 +21,7 @@ article header{
 article header a:hover {color:whitesmoke;} /*鼠标划过链接 */
 article header a:active {color:#FF6666;}
 article header a{
-	margin-left: 120px;
+	margin-left: 250px;
 	font-family: "宋体";
 	font-size: 15px;
 }

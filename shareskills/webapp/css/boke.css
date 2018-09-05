@@ -50,7 +50,7 @@ article{
 .bokeDivimg a{background: white;font-size: 15px;}
 /*各个部分内容*/
 .bokeDivInner{margin: 5px auto;width:850px;}
-.bokeDivInner h3{width: 700px;height: 35px;}
+.bokeDivInner h3{width: 700px;height: 35px;margin-top: 10px;}
 .bokeDivInner img,.bokeDivInner p{float: left;margin-bottom: 20px;}
 .bokeDivInner p{margin-left: 20px;}
 .bokeDivInner div{width: 700px;overflow: hidden;border-bottom: 1px dashed #66CCCC;margin-left: 75px;}
@@ -62,9 +62,8 @@ article{
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3; //文本行数
-	
 }
 .bokeDivInner div div img{margin-right: 50px;}
-.pagestyle{margin: 20px auto;}
+.pagestyle{margin-top: 20px;margin-left: 300px;margin-bottom: 20px;}
 .pagestyle a{font-size: 13px;color: #66CCCC;margin-left: 5px;}
 

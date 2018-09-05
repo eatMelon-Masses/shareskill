@@ -60,7 +60,7 @@ ul,ol,li{list-style: none;}
 .userimg{height: 74px;position: relative;}
 .userimg,.userspeak,#visit{margin-top: 10px;margin-left: 30px;}
 /*.userimg input,.userimg p{float: left;margin-top:5px ;}*/
-#img{float: left;margin-top: 10px;position: absolute;}
+#img{float: left;margin-top: 10px;position: absolute;width: 50px;height: 50px;}
 .userimg h2{margin: 10px 90px;position: absolute;}
 .userimg p{margin-left: 90px;position: absolute;margin-top: 55px;}
 
