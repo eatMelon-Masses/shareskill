@@ -1,7 +1,13 @@
 package com.shareskill.controllerimp;
 
 import com.shareskill.controller.UserControllerForPhone;
+import com.shareskill.model.BlogoSphere;
+import com.shareskill.model.TBlog;
+import com.shareskill.model.TBlogcomment;
 import com.shareskill.model.TUser;
+import com.shareskill.service.BlogCommentService;
+import com.shareskill.service.BlogoSphereService;
+import com.shareskill.service.BlogsService;
 import com.shareskill.service.UserService;
 import com.shareskill.utils.DateFormatUtils;
 import com.shareskill.utils.ImageHelper;
@@ -13,6 +19,7 @@ import net.sf.json.JSONObject;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.FileCopyUtils;
@@ -42,6 +49,12 @@ import java.util.*;
 public class UserControllerImpForPhone implements UserControllerForPhone {
 	@Resource
 	private UserService userService;
+	@Autowired
+	BlogsService blogsService;
+	@Autowired
+	BlogCommentService blogCommentService;
+	@Autowired
+	BlogoSphereService blogoSphereService;
 	//private final String REGISTERVIEW="views/UserEditForm";
 /*	private final String REGISTERVIEW="admin/AdminEditForm";
 	private final String LOGINUSERVIEW="";
@@ -437,6 +450,47 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 		//sb.append("</script>\n");
 		return jsonList;
 	}
+	@ResponseBody
+	@RequestMapping("/json/delUser")
+	@Override
+	public List<Object> delUser(Integer id) {
+		List<Object> jsonList = new ArrayList<>();
+		StringBuffer message = new StringBuffer();
+		Map<String, Object> mapList = new HashMap<>();
+		mapList.put(RESULT,FALSE);
+		mapList.put(MESSAGE, message);
+		jsonList.add(mapList);
+		TUser user = userService.loadMember(id);
+		if (user!=null){
+			List<TBlog> blogList = blogsService.loadBlogsByMember(user);
+
+			List<TBlogcomment> tBlogcommentList = blogCommentService.browseBlogCommentByUserId(user.getId());
+			List<BlogoSphere> blogoSpheres = blogoSphereService.browseBlogSphereByUser(user.getId());
+			if (blogList != null) {
+				for (TBlog blog : blogList) {
+					blogsService.delBlogById(blog.getId());
+				}
+			}
+			if (tBlogcommentList!=null){
+				for (TBlogcomment blogcomment:tBlogcommentList) {
+					blogCommentService.delComment(blogcomment.getId());
+				}
+			}
+			if (blogoSpheres != null) {
+				for (BlogoSphere blogoSphere : blogoSpheres) {
+					blogoSphereService.delUserWordById(blogoSphere.getId());
+				}
+			}
+			userService.delMember(user.getId());
+			message.append("删除账号成功,所有相关数据已清空");
+			mapList.put(RESULT,TRUE);
+		}else{
+			message.append("删除账号失败,不存在此账号");
+
+		}
+		return jsonList;
+	}
+
 	public UserService getUserService() {
 		return userService;
 	}
