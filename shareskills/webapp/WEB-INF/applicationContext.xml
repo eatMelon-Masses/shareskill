@@ -37,7 +37,8 @@
 		 </property>
 	<!-- 	连接数据库所用的URL -->
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://47.94.140.58/sharedb?useSSL=false</value>
+			<!--<value>jdbc:mysql://47.94.140.58/sharedb?useSSL=false</value>-->
+			<value>jdbc:mysql://yiezi.ml/sharedb?useSSL=false</value>
 		</property>
 
 	<!-- 	连接数据库的用户名 -->
@@ -46,7 +47,8 @@
 		</property>
 		<!-- 连接数据库的密码 -->
 		<property name="password">
-			<value>123456789</value>
+		<!--	<value>123456789</value>-->
+			<value></value>
 		</property>
 	<!-- 	设置数据库连接池的最大连接数 -->
 		<property name="maxPoolSize">

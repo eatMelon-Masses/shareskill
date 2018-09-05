@@ -37,4 +37,5 @@ public interface UserControllerForPhone {
 	public List<Object> viewLoginedUser(HttpServletRequest httpServletRequest);
 	/** 用户头像上传*/
 	public List<Object> uploaadPerssonImg(HttpServletRequest request, HttpServletResponse response, Model model, @RequestParam(value = "upload",required = false) MultipartFile file,Integer type);
+	public List<Object> delUser(Integer id);
 }
