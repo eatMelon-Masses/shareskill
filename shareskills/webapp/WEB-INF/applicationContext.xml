@@ -47,8 +47,8 @@
 		</property>
 		<!-- 连接数据库的密码 -->
 		<property name="password">
-			<!--<value>123456789</value>-->
-			<value>root</value>
+		<!--	<value>123456789</value>-->
+			<value></value>
 		</property>
 	<!-- 	设置数据库连接池的最大连接数 -->
 		<property name="maxPoolSize">
