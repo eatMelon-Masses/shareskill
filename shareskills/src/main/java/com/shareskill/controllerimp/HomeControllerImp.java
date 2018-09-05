@@ -19,7 +19,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class HomeControllerImp implements HomeController {
@@ -28,6 +30,10 @@ public class HomeControllerImp implements HomeController {
     @Autowired
     private BlogsService blogsService;
     private static final Log logger = LogFactory.getLog(HomeControllerImp.class);
+    final static String RESULT = "result";
+    final static String MESSAGE = "message";
+    final static String TRUE = "true";
+    final static String FALSE = "false";
 
 
 
@@ -79,7 +85,13 @@ public class HomeControllerImp implements HomeController {
     @RequestMapping("/showPicForPhone")
     @ResponseBody
     @Override
-    public Model showPicForPhone(HttpServletRequest request, Model model) {
+    public List<Object> showPicForPhone(HttpServletRequest request, Model model) {
+        List<Object> jsonList = new ArrayList<>();
+        StringBuffer message = new StringBuffer();
+        Map<String, Object> mapList = new HashMap<>();
+        mapList.put(RESULT,true);
+        //mapList.put(MESSAGE, message);
+        jsonList.add(mapList);
         String path = request.getPathTranslated();
         //
         String basePath=request.getServletContext().getRealPath("/homeslideshow").replaceAll("\\\\", "/");
@@ -94,9 +106,10 @@ public class HomeControllerImp implements HomeController {
             picsList.add(temStr);
             logger.info(temStr);
         }
-        model.addAttribute("operation", "success");
-        model.addAttribute(picsList);
-        return model;
+        //message.append("获取成功");
+        //model.addAttribute(picsList);
+        jsonList.add(picsList);
+        return jsonList;
     }
 
     public CategoryService getCategoryService() {
