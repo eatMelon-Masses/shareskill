@@ -59,7 +59,6 @@ article{
 	/*clear: both;*/border: none;
 	width: 700px;height:75px;line-height: 25px;
 	margin: 20px auto;
-	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3; //文本行数
 }
