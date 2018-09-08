@@ -7,6 +7,8 @@ import com.shareskill.service.CategoryService;
 import com.shareskill.utils.GetHomePicsName;
 import com.shareskill.utils.InitPage;
 import com.shareskill.utils.Page;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,13 +87,13 @@ public class HomeControllerImp implements HomeController {
     @RequestMapping("/showPicForPhone")
     @ResponseBody
     @Override
-    public List<Object> showPicForPhone(HttpServletRequest request, Model model) {
-        List<Object> jsonList = new ArrayList<>();
-        StringBuffer message = new StringBuffer();
+    public Map showPicForPhone(HttpServletRequest request, Model model) {
+        //List<Object> jsonList = new ArrayList<>();
+        //StringBuffer message = new StringBuffer();
         Map<String, Object> mapList = new HashMap<>();
-        mapList.put(RESULT,true);
+        //mapList.put(RESULT,true);
         //mapList.put(MESSAGE, message);
-        jsonList.add(mapList);
+        //jsonList.add(mapList);
         String path = request.getPathTranslated();
         //
         String basePath=request.getServletContext().getRealPath("/homeslideshow").replaceAll("\\\\", "/");
@@ -108,8 +110,10 @@ public class HomeControllerImp implements HomeController {
         }
         //message.append("获取成功");
         //model.addAttribute(picsList);
-        jsonList.add(picsList);
-        return jsonList;
+        //JSONArray jsonArray = JSONArray.fromObject(picsList);
+        mapList.put("bl",picsList);
+
+        return mapList;
     }
 
     public CategoryService getCategoryService() {
