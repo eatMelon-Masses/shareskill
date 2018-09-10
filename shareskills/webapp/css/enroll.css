@@ -30,13 +30,12 @@ header a:active {color:#FF6666;} /* 已选中的链接 */
 }
 /*注册部分*/
 section{
-	width:1349px;
+	width:100%;
 	height: 560px;
 }
 .enrollbg{
-	width: 1366px;
+	width: 100%;
 	height: 580px;
-	position: absolute;
 	background: url(../img/enroll.jpg);
 	background-size: cover;
 }
@@ -59,7 +58,7 @@ section{
 #codeDiv{
 	width: 80px;height: 30px;float: left;margin-top: 20px;
 	display: inline-block;text-align: center;cursor:pointer;
-	background: rgba(66,107,201,0.2);border: 1px dashed blue;border-radius: 10px;
+	background: url("../img/code.png");border: 1px dashed blue;border-radius: 10px;
 }
 
 #enrollbtn{
@@ -69,14 +68,14 @@ section{
 	background: rgba(255,250,255,0.2);
 }
 .enroll a{color: deeppink;font-size: 13px;margin-left: 100px;}
-input::-webkit-input-placeholder { 
-color: #999; 
--webkit-transition: color.5s; 
-} 
-input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
-color: #c2c2c2; 
--webkit-transition: color.5s; 
-} 
+/*input::-webkit-input-placeholder { */
+/*color: #999; */
+/*-webkit-transition: color.5s; */
+/*} */
+/*input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { */
+/*color: #66CCCC;*/
+/*-webkit-transition: color.5s; */
+/*} */
 /*页脚*/
 footer{
 	text-align: center;

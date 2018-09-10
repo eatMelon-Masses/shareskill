@@ -45,7 +45,7 @@
                     <div id="xiaobianIn">
                         <c:forEach var="tempData" items="${dataList}">
                             <div class="InDiv">
-                                <h3>${tempData.zybt}</h3>
+                                <h3><a href="/viewDataResourceByid?id=${tempData.id}">${tempData.zybt}</a></h3>
                                 <div id="txt">
                                         ${tempData.zyjj}
                                 </div>

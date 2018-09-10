@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;border: none;}
-a{text-decoration: none;color: none;}
+a{text-decoration: none;}
 input{border: none;}
 a{color: black;}
 ul,ol,li{list-style: none;}
@@ -20,8 +20,8 @@ section{width: 80%;background-color: white;border: 1px solid white;border-radius
 section form{border-bottom: 1px dashed #66CCCC; }
 .visit{width: 100%;height: 20px;margin: 10px 5px;border-bottom: 1px dashed #66CCCC;}
 .visit input{float: left;margin-right: 100px;}
-#visitInner{width: 30%;height: 20px;background-color:#ECE9D8;border-radius: 5px;margin-left: 5%;margin-bottom: 20px;margin-top: 20px;}
-#visitBtn{width: 5%;height: 20px;background-color: #66CCCC;border-radius: 5px;margin-bottom: 20px;margin-top: 20px;}
+#visitInner{width: 30%;height: 35px;background-color:#ECE9D8;border-radius: 10px;margin-left: 5%;margin-bottom: 20px;margin-top: 20px;}
+#visitBtn{width: 5%;height: 35px;background-color: #66CCCC;border-radius: 10px;margin-bottom: 20px;margin-top: 20px;}
 /*显示所有评论*/  .visitIn{clear: both;margin: 10px 10px;}
 .visitIn div{width: 100%;height: 30px;}
 .visitIn div p{float: left;margin-right: 1%;font-size: 13px;}

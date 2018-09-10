@@ -28,13 +28,12 @@ header a:active {color:#FF6666;} /* 已选中的链接 */
 }
 /*登陆部分*/
 section{
-	width:1366px;
+	width:100%;
 	height: 660px;
 }
 .loginbg{
-	width: 1366px;
+	width: 100%;
 	height: 600px;
-	position: absolute;
 	background: url(../img/login2.png);
 	background-size: cover;
 }
@@ -83,14 +82,14 @@ section{
 	background: rgba(255,250,255,0.2);
 }
 .login a{font-size: 12px;margin-left: 150px;color: deeppink}
-input::-webkit-input-placeholder { 
-	color: #999; 
-	-webkit-transition: color.5s; 
-} 
-input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
-	color: #c2c2c2; 
-	-webkit-transition: color.5s; 
-} 
+/*input::-webkit-input-placeholder { */
+	/*color: #999; */
+	/*-webkit-transition: color.5s; */
+/*} */
+/*input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { */
+	/*color: #c2c2c2; */
+	/*-webkit-transition: color.5s; */
+/*} */
 /*页脚*/
 footer{
 	text-align: center;

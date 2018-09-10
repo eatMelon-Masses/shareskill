@@ -42,16 +42,14 @@ ul,ol,li{list-style: none;}
 	background: #66CCCC;
 	border-radius: 10px;
 }
-#dynamic{height: 50px;}
-#dynamic input{
-	width: 40px;
-	height: 50px;
-	background: white;
-	margin-left: 25px;
+#dynamic{height: 40px;padding-top: 20px;}
+#dynamic a{
+	margin-top: 20px;
+	margin-left: 50px;
 	font-size: 15px;
 	font-family: "华文仿宋";
 }
-#dynamic input:hover{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
+#dynamic a:hover{color: #66CCCC;}
 .btnclass{border-bottom: 2px solid #66CCCC;color: #66CCCC;}
 
 #dynamicDiv{margin-top: 10px;width: 650px;}
@@ -66,6 +64,7 @@ ul,ol,li{list-style: none;}
 
 #visit input{margin-right: 40px;}
 .delete{width: 30px;height: 20px;margin-left: 400px;margin-top: 10px;}
+.delete:hover{color: #66CCCC;}
 /*右边*/
 .noteRight{
 	padding-top: 60px;
@@ -88,8 +87,8 @@ ul,ol,li{list-style: none;}
 	margin: 20px 0;
 	position: relative;
 }
-.noteRightbot img{position: absolute;}
-.noteRightbot_in{position: absolute;margin:70px 40px;}
-.noteRightbot_in img,.noteRightbot_in a{float: left;position: relative;marker: 20px;height: 20px;margin-top: 10px;}
-.noteRightbot_in a{width: 80px;font-size: 15px;}
+/*.noteRightbot img{position: absolute;}*/
+/*.noteRightbot_in{position: absolute;margin:70px 40px;}*/
+/*.noteRightbot_in img,.noteRightbot_in a{float: left;position: relative;marker: 20px;height: 20px;margin-top: 10px;}*/
+/*.noteRightbot_in a{width: 80px;font-size: 15px;}*/
 

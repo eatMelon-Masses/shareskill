@@ -36,7 +36,4 @@ function judgeCode()
 }
 
 
-window.onload=function (){
-	
-};
 
