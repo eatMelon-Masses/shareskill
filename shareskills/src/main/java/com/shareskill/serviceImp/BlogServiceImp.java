@@ -24,6 +24,20 @@ public class BlogServiceImp implements BlogsService{
         return dao.listAll("TBlog");
     }
 
+    @Override
+    public List<TBlog> browseAllBlogsOrderByTime() {
+        List<TBlog> list=null;
+        String hql=null;
+        try {
+            hql = "from TBlog as blog order by blog.bwcjsj";
+            list = dao.query(hql);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return list;
+    }
+
     /**
      * 浏览指定博文
      *

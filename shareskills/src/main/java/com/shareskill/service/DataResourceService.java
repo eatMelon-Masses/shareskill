@@ -40,6 +40,7 @@ public interface DataResourceService{
 	 * @return
 	 */
 	public List<TDataresource> browseDataResourceByUser(int userId, int pageNo, int pageSize);
+	public List<TDataresource> browseDataResourceByUser(int userId);
 	public List<TDataresource> browseAllDataResource();
 
 }

@@ -25,7 +25,14 @@ public class UserServiceImp implements UserService {
 		return (TUser)dao.loadObject(hql);
 	}
 
-	@Override
+    @Override
+    public TUser loadMemberByLoginName(String loginName) {
+		String hql ="from TUser as a where a.zh='"+loginName+"'";
+		return (TUser)dao.loadObject(hql);
+
+    }
+
+    @Override
 	public List<TUser> browseMember() {
 		// TODO Auto-generated method stub
 		

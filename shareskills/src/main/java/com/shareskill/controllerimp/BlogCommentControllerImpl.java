@@ -96,8 +96,8 @@ public class BlogCommentControllerImpl implements BlogCommentController {
         logger.info("blog"+blog.toString());
         logger.info("bc:"+bc.toString());
         //blogCommentService.saveOrUpdate(bc);
-        if (blog == null || !blogCommentService.saveOrUpdate(bc)) {
-            massage = "评论失败";
+        if (user==null||blog == null || !blogCommentService.saveOrUpdate(bc)) {
+            massage = "评论失败,请先登录博客账号";
         }
         logger.info("bc"+bc.toString());
         model.addAttribute("massage", massage);

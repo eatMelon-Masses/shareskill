@@ -65,7 +65,7 @@ public class BlogConntrollerForPhoneImp implements BlogControllerForPhone{
     @ResponseBody
     @Override
     public List<TBlog> brwoseBlogsByPhone() {
-        return blogsService.browseAllBlogs();
+        return blogsService.browseAllBlogsOrderByTime();
     }
 
     /**
