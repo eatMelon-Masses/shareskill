@@ -1,6 +1,5 @@
 window.onload = function(){//使页面加载完后才开始读取
-	// 动画函数 第一个参数，代表谁动  第二个参数 动多少
-    // 让图片做匀速运动，匀速动画的原理是 当前的位置 + 速度  即 offsetLeft + speed
+    // 让图片做匀速运动，匀速动画的原理是 当前的位置 + 速度  即 offsetLeft + speed,动画函数 第一个参数，代表谁动  第二个参数 动多少
     function animate(obj,target){
    		clearInterval(obj.timer);// 首先清除掉定时器
    		var speed = obj.offsetLeft < target ? 15 : -15;// 用来判断 是+ 还是 -  即说明向左走还是向右走
@@ -14,8 +13,8 @@ window.onload = function(){//使页面加载完后才开始读取
     	},10);
     };
 //获得元素
-	var picBox = document.getElementById("picBox"); // 获得大盒子
-	var ul = document.getElementById("ul"); // 获得ul
+	var picBox = document.getElementById("picBox");
+	var ul = document.getElementById("ul");
 	var ulLis = ul.children;// 获得ul的盒子 以此来生成ol中li的个数
 	var liWidth = ul.children[0].offsetWidth;// 获得每个li的宽度
 	
@@ -32,7 +31,7 @@ window.onload = function(){//使页面加载完后才开始读取
 		//li.innerHTML = i + 1;// 给li里面添加文字  1 2 3 4 5
 		ol.appendChild(li);// 将li元素添加到ol里面
 	}
-	ol.children[0].className = "active";// ol中的第一个li背景色为purple
+	ol.children[0].className = "active";
 	
 	
 	// 3. 动画开始  (鼠标经过第几个小圆点，就要展示第几张图片，并且小圆点的颜色也发生变化)
@@ -42,12 +41,9 @@ window.onload = function(){//使页面加载完后才开始读取
 		olLis[i].index = i;
 		olLis[i].onmouseover = function(){
 			for (var j = 0;j<olLis.length;j++) {
-				// 清空所有的 类名
 				olLis[j].className = "";
 			}
-			// 给当前的li添加一个类名
 			this.className = "active";
-			
 			// 接着调用动画函数 ，根据第几个li 展示第几张图片 第一个参数谁做动画  第二个参数 走多少
 			animate(ul,-this.index * liWidth);
 			// 接着让小圆点和 key 等于当前的索引号
@@ -56,7 +52,7 @@ window.onload = function(){//使页面加载完后才开始读取
 	}
 	
 	// 4. 添加定时器  让图片自动轮播
-	var timer = null; // 轮播图的定时器
+	var timer = null;
 	var key = 0;// 控制播放的张数
 	var circle = 0;// 控制小圆点
 	
@@ -98,6 +94,9 @@ window.onload = function(){//使页面加载完后才开始读取
 		timer = setInterval(autoplay,2500);  	
 	} 
 };
+
+
+
 function createXMLHttpRequest(){
 	var xmlrequest;
 	if(window.XMLHttpRequest){
