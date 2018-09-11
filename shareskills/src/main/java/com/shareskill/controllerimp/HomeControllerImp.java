@@ -59,7 +59,7 @@ public class HomeControllerImp implements HomeController {
         GetHomePicsName.getAllFileName(basePath,fileList);
         String uri=new String(servletPath+"showHome?pageNo=");//
         int count=blogsService.browseAllBlogsCount();
-        Page page = InitPage.getInstence(uri, pageNo, 4, count);
+        Page page = InitPage.getInstence(uri, pageNo, 8, count);
 
 /*        logger.info("basePath"+basePath);
         logger.info("filelist:"+fileList.size());*/

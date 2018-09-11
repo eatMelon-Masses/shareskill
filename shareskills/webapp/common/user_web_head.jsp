@@ -34,7 +34,7 @@
                 <a class="login" href="/writeSignForm">登录</a>&nbsp;
             </c:when>
             <c:otherwise>
-                <a class="login" href="">欢迎用户:${mumber.yhnc}访问</a>&nbsp;
+                <a class="login" href="/showMypersionInf">欢迎用户:${mumber.yhnc}访问</a>&nbsp;
                 <a class="enroll" href="/logoutMember">退出</a>&nbsp;
             </c:otherwise>
         </c:choose>

@@ -88,7 +88,7 @@ public class DataControllerImp implements DataController {
             //取得UserFiles文件夹对应的物理路径
             String basePath=request.getServletContext().getRealPath("/uploadfile").replaceAll("\\\\", "/");
             //获取用户真实存储路径
-            userDataPath = basePath+"/"+sessionUser.getZh() + sessionUser.getId();
+            userDataPath = basePath+"/root/"+sessionUser.getZh() + sessionUser.getId();
             logger.info("basePath:"+basePath+"userDataPath"+userDataPath);
             logger.info("uploadFileName"+uploadFileName);
             File saveDir = new File(basePath);
