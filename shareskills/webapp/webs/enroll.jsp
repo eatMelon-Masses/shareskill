@@ -20,16 +20,16 @@
 			<div class="enroll">
 				<s:form commandName="user" action="/registerUser" method="post">
 					<p>用户注册</p>
-					<s:input type="text"  placeholder="请输入用户名" id="username" path="zh"/> <td><font color="red"><s:errors path="zh"/></font></td> <br>
+					<s:input type="text"  placeholder="请输入用户名" id="username" path="zh"/> <s:errors path="zh" cssClass="errors" /> <br>
 					<ul class="enrollsex">
-						<td>性别：</td><td><font color="red"><s:errors path="xb"/></font></td>
+						<td>性别：</td>
 						<td><s:radiobutton  name="sex" value="男" path="xb"/>男</td>
 						<td><s:radiobutton name="sex" value="女" path="xb"/>女</td>
+						<s:errors path="xb" cssClass="errors1"/>
 					</ul>
-					<s:errors path="dlmm" cssClass="errors"/>
-					<s:input type="password"  placeholder="请输入密码" id="password" path="dlmm"/><td><font color="red"><s:errors path="dlmm"/></font></td> <br>
-					<input type="password"  placeholder="请再次确认密码" id="password2"/><br>
-					<s:input type="date" path="csny" id="csny" placeholder="请输入出生年月"/><td><font color="red"><s:errors path="csny"/></font></td><br>
+					<s:input type="password"  placeholder="请输入密码" id="password" path="dlmm"/><s:errors path="dlmm" cssClass="errors"/> <br>
+					<input type="password"  placeholder="请再次确认密码" id="password2"/><s:errors path="dlmm" cssClass="errors"/><br>
+					<s:input type="date" path="csny" id="csny" placeholder="请输入出生年月"/><s:errors path="csny" cssClass="errors"/><br>
 					<s:input type="text" path="grjj" id="grjj" placeholder="请输入个人简介"/><br>
 					<input type="text" id="codeTxt" placeholder=" 验证码" />
 					<div class="code" id="codeDiv" onclick="createCode()" title="看不清?点击此处换一张"></div>

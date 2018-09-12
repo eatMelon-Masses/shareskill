@@ -13,7 +13,7 @@
 			<div class="logo"><a href="/showHome"><img src="/img/logo (2).png" /></a></div>
 			<div class="exit">
 				<a class="enroll" href="/writeReisForm">注册</a>&nbsp;&nbsp;
-			    <a href="/showHome">退出</a>
+			    <a href="/showHome">主页</a>
 			</div>
 		</header> 
 		<section class="loginbg">

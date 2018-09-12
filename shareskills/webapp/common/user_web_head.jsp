@@ -19,7 +19,7 @@
     <div class="topsearch">
         <form method="post" action="/searchAllBlogs">
             <input type="text"  name="searchContent" class="search" placeholder="搜索一下"/>
-            <input type="submit" src="../img/searchimg.png" class="searchbtn" />
+            <input type="submit" src="../img/searchbg.png" class="searchbtn" value="" />
         </form>
     </div>
     <div class="boke"><img  class="bokeimg" src="../img/wboke.png" /></div>

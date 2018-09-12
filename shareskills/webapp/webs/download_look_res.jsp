@@ -47,7 +47,7 @@
 				</div>
 			</section>
 			<!-- 分页区-->
-			<div class="pagestyle">
+			<div >
 				<%--当前第[${page.pageNo}/${page.pageTotal}]页[<a href="${page.uri}1">首页</a>]
 				<c:choose>
 					<c:when test="${page.pageNo==1}">

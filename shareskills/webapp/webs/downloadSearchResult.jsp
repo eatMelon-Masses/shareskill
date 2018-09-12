@@ -3,18 +3,19 @@
   User: z1176
   Date: 2018/6/14
   Time: 9:24
-  To change this template use File | Settings | File Templates.
+  To change this template use File | S ettings | File Templates.
 --%>
 
 <%@page contentType="text/html;charset=utf-8" language="java" %>
-<%@include file="/common/web_head.jsp"%><html>
-<	<head>
+<%@include file="/common/web_head.jsp"%>
+<html>
+	<head>
     <link rel="stylesheet" type="text/css" href="../css/headerTop.css" />
     <link rel="stylesheet" type="text/css" href="../css/download.css" />
     <script type="text/javascript" src="../js/download.js" ></script>
     <meta charset="UTF-8">
     <title></title>
-</head>
+    </head>
     <body>
     <!-- 用户页面头部-->
         <%@include file="/common/user_web_head.jsp"%>

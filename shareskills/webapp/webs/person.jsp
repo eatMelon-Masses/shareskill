@@ -89,7 +89,6 @@
 			<input type="button" value="动态"/>
 			<input type="button" value="评论"/>
 			<input type="button" value="博客"/>
-			<input type="button" value="图片"/>
 		</div>
 		<section>
 			<p>我的动态</p>
@@ -131,14 +130,11 @@
 				</c:forEach>
 			</div>
 		</section>
-		<section>
-			<p>我的图片</p>
-		</section>
 	</section>
 	<div class="personvisit">
 		<img src="../img/bg (2).jpg" />
 		<div class="personvisitIn">
-			<p>关注 12</p><p>粉丝 10</p><p>浏览量 111</p>
+			<p>关注 12</p><p>浏览量 111</p>
 		</div>
 	</div>
 	</body>

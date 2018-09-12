@@ -12,13 +12,13 @@ header a:active {color:#FF6666;} /* 已选中的链接 */
 /*首页左侧*/
 section{
 	width:100%;
-	height: 1500px;
+	height: 1250px;
 	padding-top: 70px;
 	/*background: whitesmoke;*/
 }
 .home{
 	width: 1199px;
-    height: 1500px;
+    height: 1250px;
     /*margin: 0 auto;*/
    margin-left: 150px;
 }

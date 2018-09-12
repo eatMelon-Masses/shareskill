@@ -37,7 +37,7 @@ header a:active {color:#FF6666;} /* 已选中的链接 */
 .searchbtn{
 	width: 30px;
 	height: 30px;
-	background: url("../img/searchimg.png");
+	background: url("../img/searchbg.png");
 }
 .search,.searchbtn{float: left;}
 .boke{margin-top: 8px;margin-left: 30px;}
