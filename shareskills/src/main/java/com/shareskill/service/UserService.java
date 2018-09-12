@@ -6,7 +6,9 @@ import com.shareskill.model.TUser;
 /** 注册会员管理业务逻辑接口 */
 public interface UserService {
 	/** 注册会员登录 */
-	public TUser memberLogin(String loginName,String loginPwd);	
+	public TUser memberLogin(String loginName,String loginPwd);
+
+	public TUser loadMemberByLoginName(String loginName);
 	/** 浏览注册会员 */
 	public List<TUser> browseMember();	
 	/** 装载指定的注册会员 */

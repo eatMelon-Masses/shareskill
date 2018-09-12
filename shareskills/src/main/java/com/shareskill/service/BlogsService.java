@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface BlogsService{
 	/** 浏览所有博文*/
 	public List<TBlog> browseAllBlogs();
+	public List<TBlog> browseAllBlogsOrderByTime();
 	/** 浏览指定博文*/
 	public TBlog loadBlogById(Integer id);
 	/** 浏览指定会员的博文*/
@@ -26,6 +27,7 @@ public interface BlogsService{
 	/**分页浏览所有博文*/
 
 	public List<TBlog> browseAllBlogs(int  pageNo,int pageSize);
+
 
 
 	/**

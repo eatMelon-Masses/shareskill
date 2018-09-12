@@ -86,7 +86,8 @@ public class DataControllerImp implements DataController {
             response.setCharacterEncoding("UTF-8");
             //sb.append("<script type=\"text/javascript\">\n");
             //取得UserFiles文件夹对应的物理路径
-            String basePath=request.getServletContext().getRealPath("/uploadfile").replaceAll("\\\\", "/");
+            //String basePath=request.getServletContext().getRealPath("/root/uploadfile").replaceAll("\\\\", "/");
+            String basePath="/root/uploadfile".replaceAll("\\\\", "/");
             //获取用户真实存储路径
             userDataPath = basePath+"/"+sessionUser.getZh() + sessionUser.getId();
             logger.info("basePath:"+basePath+"userDataPath"+userDataPath);

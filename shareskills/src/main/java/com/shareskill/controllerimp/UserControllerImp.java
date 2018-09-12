@@ -92,11 +92,11 @@ public class UserControllerImp implements UserController {
 		}
 		user.setJybs(String.valueOf(0));
 		user.setCsny(new Date());
-		if (userService.saveOrUpdateMember(user)) {
+		if (null==userService.loadMemberByLoginName(user.getZh())&&userService.saveOrUpdateMember(user)) {
 			model.addAttribute("massage", massage);
 			return HOMEVIEW;
 		} else {
-			massage = "注册失败,请从新尝试";
+			massage = "注册失败,账号重复,请从新尝试";
 			model.addAttribute("user", new TUser());
 			model.addAttribute("massage", massage);
 			return REGISTERVIEW;

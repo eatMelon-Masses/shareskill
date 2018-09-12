@@ -1,14 +1,8 @@
 package com.shareskill.controllerimp;
 
 import com.shareskill.controller.UserControllerForPhone;
-import com.shareskill.model.BlogoSphere;
-import com.shareskill.model.TBlog;
-import com.shareskill.model.TBlogcomment;
-import com.shareskill.model.TUser;
-import com.shareskill.service.BlogCommentService;
-import com.shareskill.service.BlogoSphereService;
-import com.shareskill.service.BlogsService;
-import com.shareskill.service.UserService;
+import com.shareskill.model.*;
+import com.shareskill.service.*;
 import com.shareskill.utils.DateFormatUtils;
 import com.shareskill.utils.ImageHelper;
 import com.shareskill.utils.JsonUtils;
@@ -55,6 +49,8 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 	BlogCommentService blogCommentService;
 	@Autowired
 	BlogoSphereService blogoSphereService;
+	@Autowired
+	DataResourceService dataResourceService;
 	//private final String REGISTERVIEW="views/UserEditForm";
 /*	private final String REGISTERVIEW="admin/AdminEditForm";
 	private final String LOGINUSERVIEW="";
@@ -122,11 +118,12 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 		}
 		user.setJybs(String.valueOf(0));
 		//user.setCsny(new Date());
-		if (userService.saveOrUpdateMember(user)) {
+
+		if (null==userService.loadMemberByLoginName(user.getZh())&&userService.saveOrUpdateMember(user)) {
 			mapList.put(RESULT, TRUE);
 			message.append("注册成功");
 		} else {
-			message.append("注册失败,未知错误");
+			message.append("注册失败,账号重复");
 			return jsonList;
 		}
 
@@ -398,7 +395,8 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 		try {
 			//sb.append("<script type=\"text/javascript\">\n");
 			//取得UserFiles文件夹对应的物理路径
-			String basePath=request.getServletContext().getRealPath("/uploadfile").replaceAll("\\\\", "/");
+			String basePath=request.getServletContext().getRealPath("uploadfile").replaceAll("\\\\", "/");
+			//String basePath="/root/uploadfile".replaceAll("\\\\", "/");
 			//获取用户真实存储路径
 			userDataPath = basePath+"/"+sessionUser.getZh() + sessionUser.getId();
 			logger.info("basePath:"+basePath+"userDataPath"+userDataPath);
@@ -427,6 +425,7 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 					else
 						ImageHelper.compress(file.getInputStream(), new File(userDataPath, tempFilename), 674, 120);//压缩图片为100*100像素的头像
 					message.append("头像上传成功");
+					mapList.put(RESULT,TRUE);
 				}else{
 					//文件格式不正确时的错误提示信息
 					message.append("对不起，文件格式不正确,请重新选择正确的文件！");
@@ -466,6 +465,7 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 
 			List<TBlogcomment> tBlogcommentList = blogCommentService.browseBlogCommentByUserId(user.getId());
 			List<BlogoSphere> blogoSpheres = blogoSphereService.browseBlogSphereByUser(user.getId());
+			List<TDataresource> tDataresources = dataResourceService.browseDataResourceByUser(user.getId());
 			if (blogList != null) {
 				for (TBlog blog : blogList) {
 					blogsService.delBlogById(blog.getId());
@@ -479,6 +479,11 @@ public class UserControllerImpForPhone implements UserControllerForPhone {
 			if (blogoSpheres != null) {
 				for (BlogoSphere blogoSphere : blogoSpheres) {
 					blogoSphereService.delUserWordById(blogoSphere.getId());
+				}
+			}
+			if (tDataresources!=null){
+				for (TDataresource tDataresource : tDataresources) {
+					dataResourceService.delDataResById(tDataresource.getId());
 				}
 			}
 			userService.delMember(user.getId());

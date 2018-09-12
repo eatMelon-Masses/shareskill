@@ -67,11 +67,11 @@
 			<span>ORS营业执照:000000000000 | 网络文化经营许可证:XXXX-XXX号 | 增值电信业务经营许可证:ORS-XXXXXXXX | 安全责任书 </span>
 		</footer>
 	</body>
-	<c:if test="${not empty massage }">
+<%--	<c:if test="${not empty massage }">
 		<script>
             layer.alert('${massage}', {icon: 6});
 		</script>
-	</c:if>
+	</c:if>--%>
 
 
 </html>

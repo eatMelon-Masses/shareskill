@@ -181,6 +181,20 @@ public class DataResourceServiceImp implements DataResourceService{
     }
 
     @Override
+    public List<TDataresource> browseDataResourceByUser(int userId) {
+        List<TDataresource> list=null;
+        String hql= null;
+        try {
+            hql="from TDataresource as data where data.userId="+userId;
+            list = dao.query(hql);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    @Override
     public List<TDataresource> browseAllDataResource() {
         List<TDataresource> list =null;
         String hql=null;
