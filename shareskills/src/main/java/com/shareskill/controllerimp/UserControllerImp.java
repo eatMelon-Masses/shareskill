@@ -158,7 +158,13 @@ public class UserControllerImp implements UserController {
 			model.addAttribute("massage", "登录成功");
 			return HOMEVIEW;
 		}else{//如果当前无已登录用户
+		    if (user.getZh().trim().length()==0||user.getDlmm().trim().length()==0){
+                model.addAttribute("massage", "登录失败,账号或密码为空");
+                model.addAttribute("user", new TUser());
+                return LOGINUSERVIEW;
+            }
 			TUser tempUser = userService.memberLogin(user.getZh(), user.getDlmm());
+
 			if (tempUser != null) {
 				request.getSession().setAttribute("mumber", tempUser);
 				logger.info("login_success");
@@ -167,7 +173,7 @@ public class UserControllerImp implements UserController {
 				return HOMEVIEW;
 			} else {
 				logger.info("login_fail");
-				model.addAttribute("massage", "登录失败");
+				model.addAttribute("massage", "登录失败,账号或密码错误");
 				model.addAttribute("user", new TUser());
 				return LOGINUSERVIEW;
 			}

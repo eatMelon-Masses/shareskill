@@ -17,20 +17,24 @@ function createCode() {
         codeDiv.innerHTML = code;
     }
 }
-function judgeCode() 
+function judgeCode()
 {
     var codeTxt = document.getElementById("codeTxt").value;
     if (codeTxt.length <= 0) 
     {
         alert("请输入验证码！");
+        return false;
+
     }
     else if (codeTxt != code) 
     {
         alert("验证码输入有误！");
         createCode();
+        return false;
     }
     else 
     {
+        return true;
     	self.location="login.html";
     }        
 }

@@ -88,6 +88,9 @@ public class BlogsControllerImp implements BlogController {
             blog.setEditor(sessionUser.getYhnc());
             blog.setUserId(sessionUser.getId());
         }
+        if (blog.getBwbt()==null ||blog.getBwbt().trim().length()==0||blog.getBwnr().trim().length()==0){
+            return "redirect:/preAddBlog";
+        }
         blogService.saveOrUpdateBlog(blog);
         return "redirect:/showHome";
         }

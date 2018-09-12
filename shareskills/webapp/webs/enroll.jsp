@@ -33,7 +33,7 @@
 					<s:input type="text" path="grjj" id="grjj" placeholder="请输入个人简介"/><br>
 					<input type="text" id="codeTxt" placeholder=" 验证码" />
 					<div class="code" id="codeDiv" onclick="createCode()" title="看不清?点击此处换一张"></div>
-					<input type="submit" name="enrollbtn" id="enrollbtn" onclick="judgeCode()" value="注册" />
+					<input type="submit" name="enrollbtn" id="enrollbtn" onclick="return judgeCode()" value="注册" />
 					<a href="/writeSignForm">已有账号？立即登录</a>
 					<%--<s:errors path="user.zh"/>--%>
 				</s:form>
