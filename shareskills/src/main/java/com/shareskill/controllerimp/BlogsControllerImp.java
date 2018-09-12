@@ -242,14 +242,20 @@ public class BlogsControllerImp implements BlogController {
      *
      * @param model
      */
-    @RequestMapping(value = "/searchAllBlogs",method = RequestMethod.POST)
+    @RequestMapping(value = "/searchAllBlogs")
     @Override
-    public String searchAllBlogs(HttpServletRequest request,Model model, @RequestParam()String searchContent,@RequestParam(required = false,defaultValue = "1") Integer pageNo) {
+    public String searchAllBlogs(HttpServletRequest request,Model model, @RequestParam(required = false)String searchContent,@RequestParam(required = false,defaultValue = "1") Integer pageNo) {
         logger.info("action"+"searchAllBlogs");
-        String uri = new String("/searchAllBlogs?pageNo=");
-        int count = blogService.searchBlogsCount(searchContent);
-        Page page = InitPage.getInstence(uri, pageNo, 4, count);
+        String uri = new String("/searchAllBlogs?");
         String searchContentbak = (String) request.getSession().getAttribute("rearchContent");
+        int count=0;
+        if (searchContent!=null)
+         count = blogService.searchBlogsCount(searchContent);
+        else{
+            count = blogService.searchBlogsCount(searchContentbak);
+        }
+        Page page = InitPage.getInstence(uri, pageNo, 4, count);
+
         if (searchContent != null) {
             request.getSession().setAttribute("rearchContent", searchContent);
             model.addAttribute("blogsList",blogService.searchBlogs(searchContent,pageNo,page.getPageSize()));

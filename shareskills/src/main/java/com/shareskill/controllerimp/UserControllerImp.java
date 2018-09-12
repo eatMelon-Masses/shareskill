@@ -244,6 +244,7 @@ public class UserControllerImp implements UserController {
 		logger.info("密码比对"+user.getDlmm().equals(tempUser.getDlmm()));
 
 			if(userService.saveOrUpdateMember(tempUser)){
+				message.append("修改成功");
 				logger.info("updateMember_success");
 			}else{
 				message.delete(0, message.length());
