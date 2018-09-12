@@ -202,6 +202,7 @@ public class BlogConntrollerForPhoneImp implements BlogControllerForPhone{
         if (tempUser != null && blogcate != null) {
             blog.setBwdjcs(new Integer(0));
             blog.setBwcjsj(new Date());
+            blog.setEditor(tempUser.getYhnc());
             //
             if (blogsService.saveOrUpdateBlog(blog)) {
                 mapList.put(RESULT, TRUE);
