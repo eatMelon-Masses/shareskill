@@ -32,10 +32,10 @@ function saveUser2() {
         processData: false,
         mimeType: "multipart/form-data",
         success: function (data) {
-            alert(data);
+            alert("上传头像成功!");
         },
         error: function (data) {
-            alert(data);
+            alert("上传头像失败!");
         }
     });
 }
@@ -55,10 +55,10 @@ function saveUser1() {
         processData: false,
         mimeType: "multipart/form-data",
         success: function (data) {
-            alert(data);
+            alert("上传背景成功!");
         },
         error: function (data) {
-            alert(data);
+            alert("上传背景失败!");
         }
     });
 }
