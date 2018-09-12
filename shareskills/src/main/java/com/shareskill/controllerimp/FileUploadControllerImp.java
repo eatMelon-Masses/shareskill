@@ -125,7 +125,8 @@ public class FileUploadControllerImp implements UploadController {
             data = dataResourceService.loadDataResById(resId);
             filename=data.getZylj();
         }
-        String basePath=request.getServletContext().getRealPath("/root/uploadfile").replaceAll("\\\\", "/");
+        //String basePath=request.getServletContext().getRealPath("/root/uploadfile").replaceAll("\\\\", "/");
+        String basePath="/root/uploadfile".replaceAll("\\\\", "/");
         //获取用户真实存储路径
         //  userDataPath = basePath+"/"+sessionUser.getZh() + sessionUser.getId()+"/";
         logger.info("userdatapath:"+userDataPath+ " filename :"+filename);
