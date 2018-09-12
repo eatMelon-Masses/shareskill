@@ -18,7 +18,7 @@
 		<div class="bgimg"><!--背景图片 -->
 			<c:choose>
 				<c:when test="${not empty user.userBgImg}">
-					<img src="${basePath}root${user.userBgImg}" id="bgimg"/>
+					<img src="${basePath}/root${user.userBgImg}" id="bgimg"/>
 				</c:when>
 				<c:otherwise>
 					<img src="../img/hand1.png" id="bgimg"/>
@@ -59,7 +59,7 @@
 				<label for="file">
 					<c:choose>
 						<c:when test="${not empty user.userImg}">
-							<img src="${basePath}root${user.userImg}" id="img"/>
+							<img src="${basePath}/root${user.userImg}" id="img"/>
 						</c:when>
 						<c:otherwise>
 							<img src="../img/hand1.png" id="img"/>
